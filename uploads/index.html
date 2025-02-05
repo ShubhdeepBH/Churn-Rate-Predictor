@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Churn Rate Application</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <!-- Include your main.js as a module -->
+    <script type="module" src="{{ url_for('static', filename='main.js') }}"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #000;
+        color: #fff;
+      }
+      #webgl-canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+      }
+      .container {
+        position: relative;
+        z-index: 1;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        padding: 2rem;
+        border-radius: 15px;
+        margin: 2rem auto;
+        width: 90%;
+        max-width: 600px;
+        text-align: center;
+      }
+      form {
+        margin-top: 1rem;
+      }
+      #result {
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="webgl-canvas"></canvas>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">ChurnQI</a>
+    </nav>
+    <div class="container">
+      <h1 class="mt-5">Churn Rate Application</h1>
+      <p>Upload your dataset (CSV or Excel) to analyze customer churn:</p>
+      <form id="uploadForm" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="file-upload">Choose file:</label>
+          <input type="file" name="file" id="file-upload" class="form-control" accept=".csv, .xlsx" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Upload and Process</button>
+      </form>
+      <div id="result"></div>
+    </div>
+    <script>
+      // JavaScript to handle the file upload and display the result
+      const form = document.getElementById("uploadForm");
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const fileInput = document.getElementById("file-upload");
+        const resultDiv = document.getElementById("result");
+        if (fileInput.files.length === 0) {
+          resultDiv.innerHTML = `<p class="text-danger">Please select a file.</p>`;
+          return;
+        }
+        const formData = new FormData();
+        formData.append("file", fileInput.files[0]);
+
+        try {
+          const response = await fetch("/upload", {
+            method: "POST",
+            body: formData,
+          });
+          const data = await response.json();
+          if (data.error) {
+            resultDiv.innerHTML = `<p class="text-danger">Error: ${data.error}</p>`;
+          } else {
+            resultDiv.innerHTML = `
+              <h2>Predicted Churn Rate: ${data.churn_rate}</h2>
+              <h3>Number of Users Likely to Churn: ${data.churn_users_count}</h3>
+              <h3>Users Likely to Churn (Customer IDs):</h3>
+              <p>${data.churn_user_ids.join(', ')}</p>
+              <p>${data.message}</p>
+            `;
+          }
+        } catch (error) {
+          resultDiv.innerHTML = `<p class="text-danger">An error occurred: ${error.message}</p>`;
+        }
+      });
+    </script>
+  </body>
+</html>

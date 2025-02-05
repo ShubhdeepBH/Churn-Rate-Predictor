@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BUSBARS - Login</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Particles.js Library -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <style>
+    /* Reset & Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(135deg, #667eea, #764ba2); /* Purple Gradient */
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    /* Particles Background */
+    #particles-js {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1; /* Ensure particles are behind other content */
+    }
+    
+    /* Navbar */
+    .navbar {
+      width: 100%;
+      padding: 1rem 2rem;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .navbar .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #764ba2;
+    }
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+    .navbar ul li {
+      margin: 0 15px;
+    }
+    .navbar ul li a {
+      font-weight: 600;
+      color: #764ba2;
+      transition: color 0.3s ease;
+    }
+    .navbar ul li a:hover {
+      color: #5a3791;
+    }
+    
+    /* Main Section */
+    .main-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    
+    /* Hero Box */
+    .hero {
+      background: rgba(255, 255, 255, 0.95);
+      width: 100%;
+      max-width: 400px;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      margin-bottom: 2rem;
+      animation: slideIn 0.6s ease-out;
+    }
+    .hero h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #764ba2;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      color: #555;
+    }
+    
+    /* Form Section */
+    .login-form input {
+      padding: 0.75rem;
+      width: 80%;
+      margin: 1rem 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    .login-form button {
+      background: #764ba2;
+      color: #fff;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .login-form button:hover {
+      background: #5a3791;
+    }
+    /* Error Message */
+    .error-message {
+      color: red;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+    /* Sign Up Prompt */
+    .sign-up {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+    .sign-up a {
+      color: #764ba2;
+      text-decoration: none;
+    }
+    .sign-up a:hover {
+      text-decoration: underline;
+    }
+    /* Animations */
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 1.5rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Particles Container -->
+  <div id="particles-js"></div>
+  
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">BUSBARS</div>
+    <ul>
+      <li><a href="{{ url_for('index') }}">Home</a></li>
+      <li><a href="{{ url_for('about') }}">About</a></li>
+    </ul>
+  </nav>
+  
+  <div class="main-section">
+    <div class="hero">
+      <h1>Login</h1>
+      <p>Access your dashboard and start analyzing your data.</p>
+      
+      <!-- Display error message if login fails -->
+      {% if error_message %}
+        <p class="error-message">{{ error_message }}</p>
+      {% endif %}
+      
+      <!-- Login Form -->
+      <form class="login-form" method="POST" action="/login">
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Sign In</button>
+        <div class="sign-up">
+          <p>Not a user? <a href="{{ url_for('signup') }}">Sign up now</a> to get started.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <script>
+    particlesJS('particles-js', {
+      particles: {
+        number: {
+          value: 80,
+          density: {
+            enable: true,
+            value_area: 800
+          }
+        },
+        color: {
+          value: "#ffffff"
+        },
+        shape: {
+          type: "circle",
+          stroke: {
+            width: 0,
+            color: "#000000"
+          }
+        },
+        opacity: {
+          value: 0.5,
+          random: true,
+          anim: {
+            enable: true,
+            speed: 1,
+            opacity_min: 0.1,
+            sync: false
+          }
+        },
+        size: {
+          value: 3,
+          random: true,
+          anim: {
+            enable: true,
+            speed: 40,
+            size_min: 0.1,
+            sync: false
+          }
+        },
+        line_linked: {
+          enable: true,
+          distance: 150,
+          color: "#ffffff",
+          opacity: 0.4,
+          width: 1
+        },
+        move: {
+          enable: true,
+          speed: 4,
+          direction: "none",
+          random: false,
+          straight: false,
+          out_mode: "out",
+          bounce: false,
+          attract: {
+            enable: false,
+            rotateX: 600,
+            rotateY: 1200
+          }
+        }
+      },
+      interactivity: {
+        detect_on: "window",
+        events: {
+          onhover: {
+            enable: true,
+            mode: "repulse"  // Repulse mode for mouse hover
+          },
+          onclick: {
+            enable: true,
+            mode: "push"  // Push mode for mouse click
+          }
+        },
+        modes: {
+          repulse: {
+            distance: 150, // Increased distance for better effect
+            duration: 0.4
+          },
+          push: {
+            particles_nb: 4
+          }
+        }
+      },
+      retina_detect: true
+    });
+  </script>
+</body>
+</html>

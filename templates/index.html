@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BUSBARS - Home</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Particles.js Library -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <style>
+    /* Reset & Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    /* Particles Background */
+    #particles-js {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    /* Navbar */
+    .navbar {
+      width: 100%;
+      padding: 1rem 2rem;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .navbar .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #764ba2;
+    }
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+    .navbar ul li {
+      margin: 0 15px;
+    }
+    .navbar ul li a {
+      font-weight: 600;
+      color: #764ba2;
+      transition: color 0.3s ease;
+    }
+    .navbar ul li a:hover {
+      color: #5a3791;
+    }
+    /* Main Section */
+    .main-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+      animation: fadeIn 1s ease-out;
+    }
+    /* Hero Box */
+    .hero {
+      background: rgba(255, 255, 255, 0.95);
+      width: 100%;
+      max-width: 800px;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      margin-bottom: 2rem;
+      animation: slideIn 0.6s ease-out;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #764ba2;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: #555;
+    }
+    /* File Upload Section */
+    .file-upload {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    #file-input {
+      display: none;
+    }
+    .upload-label {
+      background: #764ba2;
+      color: #fff;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .upload-label:hover {
+      background: #5a3791;
+    }
+    .file-preview {
+      margin-top: 1rem;
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 1rem;
+      border-radius: 8px;
+      max-width: 400px;
+      width: 100%;
+      display: none;
+      font-size: 1rem;
+      color: #e0e0e0;
+    }
+    /* Calculate Churn Button */
+    .cta-button {
+      background: #764ba2;
+      color: #fff;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      margin-top: 1.5rem;
+      display: none;
+    }
+    .cta-button:hover {
+      background: #5a3791;
+    }
+    /* Animations */
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    /* Features Section */
+    .features {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      margin-top: 3rem;
+      animation: fadeIn 1s ease-out;
+    }
+    .feature {
+      background: rgba(255, 255, 255, 0.85);
+      padding: 2rem;
+      width: 30%;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .feature:hover {
+      transform: translateY(-10px);
+    }
+    .feature img {
+      width: 50px;
+      margin-bottom: 1rem;
+    }
+    .feature h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #764ba2;
+    }
+    .feature p {
+      font-size: 1rem;
+      color: #555;
+    }
+    /* Testimonial Section */
+    .testimonials {
+      background: #f9f9f9;
+      padding: 3rem 2rem;
+      margin-top: 4rem;
+      border-radius: 12px;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+    .testimonials h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #764ba2;
+    }
+    .testimonial {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+    .testimonial img {
+      width: 50px;
+      border-radius: 50%;
+      margin-right: 1rem;
+    }
+    .testimonial p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .testimonial strong {
+      color: #764ba2;
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+      .feature {
+        width: 80%;
+        margin-bottom: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Particles Container -->
+  <div id="particles-js"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">BUSBARS</div>
+    <ul>
+      <li><a href="#" onclick="showSection('home')">Home</a></li>
+      <li><a href="/login">Login</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <div class="main-section" id="home">
+    <div class="hero">
+      <h1>Welcome to BUSBARS</h1>
+      <p>Predict your customer churn in seconds with our easy-to-use tool.</p>
+      <button class="cta-button" id="get-started-btn">Get Started</button>
+    </div>
+    <div class="file-upload">
+      <input type="file" id="file-input" />
+      <label for="file-input" class="upload-label">Choose a File</label>
+      <div class="file-preview" id="file-preview">
+        <p>Uploaded File: <span id="file-name"></span></p>
+        <p>Size: <span id="file-size"></span> KB</p>
+      </div>
+    </div>
+    <!-- "Calculate Churn" Button -->
+    <button class="cta-button" id="calc-button">Calculate Churn</button>
+    <div id="result"></div>
+  </div>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="feature">
+      <img src="{{ url_for('static', filename='images/data-analysis.png') }}" alt="Data Analytics" style="width: 200px; height: auto;">
+
+
+
+      <h3>Data Analysis</h3>
+      <p>Quickly analyze your customer data with an easy-to-use interface.</p>
+    </div>
+    <div class="feature">
+      <img src="{{ url_for('static', filename='images/predict-trends.png') }}" 
+     alt="Predict Trends" 
+     style="width: 200px; height: auto;">
+
+      <h3>Predict Trends</h3>
+      <p>Use advanced algorithms to predict customer churn and business outcomes.</p>
+    </div>
+    <div class="feature">
+      <img src="{{ url_for('static', filename='images/boost-growth.png') }}" alt="Boost Growth" style="width: 100px; height: auto;">
+      <h3>Boost Growth</h3>
+      <p>Make informed decisions to reduce churn and improve customer retention.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>What Our Users Say</h2>
+    <div class="testimonial">
+      <img src="{{ url_for('static', filename='images/user-1.png') }}" alt="User 1">
+      <p><strong>John Doe</strong> - "BUSBARS helped me reduce churn by 20% in just a month!"</p>
+    </div>
+    <div class="testimonial">
+      <img src="{{ url_for('static', filename='images/user-2.png') }}" alt="User 2">
+      <p><strong>Jane Smith</strong> - "A must-have tool for anyone in customer relationship management."</p>
+    </div>
+  </section>
+
+  <!-- JavaScript -->
+  <script>
+    // Section Toggle Functionality
+    function showSection(sectionId) {
+      const sections = ["home", "login", "about"];
+      sections.forEach(id => {
+        document.getElementById(id).style.display = (id === sectionId) ? "flex" : "none";
+      });
+    }
+
+    // File Upload Functionality
+    const fileInput = document.getElementById('file-input');
+    const filePreview = document.getElementById('file-preview');
+    const fileNameSpan = document.getElementById('file-name');
+    const fileSizeSpan = document.getElementById('file-size');
+    const calcButton = document.getElementById('calc-button');
+    const getStartedBtn = document.getElementById('get-started-btn');
+
+    // Show file preview when file is selected
+    fileInput.addEventListener('change', function () {
+      if (fileInput.files.length > 0) {
+        const file = fileInput.files[0];
+        fileNameSpan.textContent = file.name;
+        fileSizeSpan.textContent = Math.round(file.size / 1024);
+        filePreview.style.display = 'block';
+        calcButton.style.display = 'inline-block';
+      }
+    });
+
+    // Optionally, the "Get Started" button can trigger the file input click
+    getStartedBtn.addEventListener('click', function () {
+      fileInput.click();
+    });
+
+    // Handle "Calculate Churn" button click
+    calcButton.addEventListener('click', function () {
+      if (fileInput.files.length === 0) {
+        alert("Please choose a file first.");
+        return;
+      }
+      const formData = new FormData();
+      formData.append('file', fileInput.files[0]);
+      fetch('/upload', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.error) {
+          alert(`Error: ${data.error}`);
+        } else {
+          // Store results in localStorage for later retrieval (e.g., in result.html)
+          localStorage.setItem("resultData", JSON.stringify(data));
+          // Redirect to the results page
+          window.location.href = "/result";
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        alert("An error occurred while uploading the file.");
+      });
+    });
+
+    // Particles.js Initialization
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 80,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#ffffff"  /* White color for particles */
+        },
+        "shape": {
+          "type": "circle"
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": false,
+          "anim": {
+            "enable": true,
+            "speed": 1,
+            "opacity_min": 0.1
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 4,
+            "size_min": 0.1
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",  /* White color for lines */
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 6,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false
+        }
+      },
+      "interactivity": {
+        "detect_on": "window",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

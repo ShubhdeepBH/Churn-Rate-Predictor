@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BUSBARS - Churn Analysis Results</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Include particles.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <style>
+    /* Reset & Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2); /* Gradient background */
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    /* Add particles container */
+    #particles-js {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1; /* Make sure it's behind other content */
+    }
+    /* Navbar */
+    .navbar {
+      width: 100%;
+      padding: 1rem 2rem;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .navbar .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #764ba2;
+    }
+    .navbar .nav-links a {
+      margin-left: 1.5rem;
+      font-weight: 600;
+      color: #764ba2;
+      transition: color 0.3s ease;
+    }
+    .navbar .nav-links a:hover {
+      color: #5a3791;
+    }
+    /* Main Container */
+    .container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+    /* Card Style */
+    .card {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      max-width: 600px;
+      width: 100%;
+      padding: 2rem;
+      text-align: center;
+      animation: slideIn 0.6s ease-out;
+    }
+    .card h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #764ba2;
+    }
+    .card p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+    .card .result-item {
+      margin: 1rem 0;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #333;
+    }
+    .card .result-item span {
+      font-weight: 400;
+      color: #555;
+    }
+    /* Scrollable user IDs list */
+    .user-ids {
+      max-height: 150px;
+      overflow-y: auto;
+      background: #f7f7f7;
+      border: 1px solid #e0e0e0;
+      padding: 0.75rem;
+      border-radius: 8px;
+      margin: 1rem 0;
+      text-align: left;
+      font-family: monospace;
+      font-size: 0.95rem;
+      color: #444;
+    }
+    /* Button Styles */
+    .btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      background: #764ba2;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      margin-right: 1rem;
+    }
+    .btn:hover {
+      background: #5a3791;
+    }
+    /* Animations */
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .card {
+        padding: 1.5rem;
+      }
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .navbar .nav-links {
+        margin-top: 0.5rem;
+      }
+      .navbar .nav-links a {
+        margin-left: 0;
+        margin-right: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Particles Container -->
+  <div id="particles-js"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">BUSBARS</div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <!-- Additional nav links can be added here -->
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+    <div class="card">
+      <h1>Churn Analysis Results</h1>
+      <p id="result-message"></p>
+      <div class="result-item">
+        Churn Rate: <span id="churn-rate"></span>
+      </div>
+      <div class="result-item">
+        Users Likely to Churn: <span id="churn-count"></span>
+      </div>
+      <div class="result-item">
+        User IDs:
+        <div class="user-ids" id="churn-ids"></div>
+      </div>
+      <!-- Navigation Buttons -->
+      <div>
+        <button class="btn" onclick="window.location.href='/'">Back to Home</button>
+        <button class="btn" id="download-btn">Download User IDs</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script to Load and Download Result Data -->
+  <script>
+    // Retrieve stored results from localStorage (assumed to be saved by the upload process)
+    const resultData = localStorage.getItem("resultData");
+    let parsedData = null;
+    if (resultData) {
+      parsedData = JSON.parse(resultData);
+      document.getElementById("result-message").textContent = parsedData.message || "Analysis complete!";
+      document.getElementById("churn-rate").textContent = parsedData.churn_rate || "N/A";
+      document.getElementById("churn-count").textContent = parsedData.churn_users_count || "0";
+      document.getElementById("churn-ids").textContent = (parsedData.churn_user_ids && parsedData.churn_user_ids.length) 
+          ? parsedData.churn_user_ids.join(', ') 
+          : "None";
+    } else {
+      document.getElementById("result-message").textContent = "No results available. Please upload your file on the Home page.";
+    }
+
+    // Helper function to convert an array of objects to CSV format
+    function convertArrayToCSV(dataArray) {
+      if (!dataArray || !dataArray.length) return "";
+      const headers = Object.keys(dataArray[0]);
+      const csvRows = [];
+      // Add the headers row
+      csvRows.push(headers.join(","));
+      // Add the data rows
+      dataArray.forEach(row => {
+        const values = headers.map(header => {
+          let val = row[header];
+          // Escape double quotes and wrap in quotes if necessary
+          if (typeof val === "string") {
+            val = val.replace(/"/g, '""');
+            if (val.indexOf(",") >= 0) {
+              val = `"${val}"`;
+            }
+          }
+          return val;
+        });
+        csvRows.push(values.join(","));
+      });
+      return csvRows.join("\n");
+    }
+
+    // Function to download the full customer data as a .clv file.
+    // It converts the full dataset (including user name and all details) for the churn customers into CSV.
+    function downloadData() {
+      if (!parsedData) {
+        alert("No data available to download.");
+        return;
+      }
+      // Ensure that the full customer details are available in 'churn_customers_data'
+      if (parsedData.churn_customers_data && parsedData.churn_customers_data.length) {
+        // Convert the array of customer objects to CSV format.
+        const csvContent = convertArrayToCSV(parsedData.churn_customers_data);
+        const blob = new Blob([csvContent], { type: "text/csv" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "churn_customers_data.csv"; // File extension .clv
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      } else {
+        // Fallback: download the overall result data in JSON format if detailed data is not available
+        const fileContent = JSON.stringify(parsedData, null, 2);
+        const blob = new Blob([fileContent], { type: "text/plain" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "churn_data.csv";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }
+    }
+
+    // Attach the event listener to the download button
+    document.getElementById("download-btn").addEventListener("click", downloadData);
+
+    // Initialize particles.js
+    particlesJS("particles-js", {
+    particles: {
+      number: {
+        value: 80,
+        density: {
+          enable: true,
+          value_area: 800
+        }
+      },
+      color: {
+        value: "#ffffff"
+      },
+      shape: {
+        type: "circle",
+        stroke: {
+          width: 0,
+          color: "#ffffff"
+        }
+      },
+      opacity: {
+        value: 0.5,
+        random: true,
+        anim: {
+          enable: true,
+          speed: 1,
+          opacity_min: 0.1,
+          sync: false
+        }
+      },
+      size: {
+        value: 3,
+        random: true,
+        anim: {
+          enable: true,
+          speed: 40,
+          size_min: 0.1,
+          sync: false
+        }
+      },
+      line_linked: {
+        enable: true,
+        distance: 150,
+        color: "#ffffff",
+        opacity: 0.4,
+        width: 1
+      },
+      move: {
+        enable: true,
+        speed: 6,
+        direction: "none",
+        random: false,
+        straight: false,
+        out_mode: "out",
+        bounce: false,
+        attract: {
+          enable: false,
+          rotateX: 600,
+          rotateY: 1200
+        }
+      }
+    },
+    interactivity: {
+      detect_on: "window",
+      events: {
+        onhover: {
+          enable: true,
+          mode: "repulse"  // This mode allows the particles to react and move away when you hover over them
+        },
+        onclick: {
+          enable: true,
+          mode: "push" // This adds more particles when you click
+        }
+      },
+      modes: {
+        repulse: {
+          distance: 100,
+          duration: 0.4
+        },
+        push: {
+          particles_nb: 4
+        }
+      }
+    },
+    retina_detect: true
+  });
+  </script>
+</body>
+</html>

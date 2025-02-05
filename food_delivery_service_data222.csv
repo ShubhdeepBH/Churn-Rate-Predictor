@@ -1,0 +1,1001 @@
+CustomerID,SubscriptionType,OrderFrequency,TotalSpend,NumOrders,DeliveryPreference,AvgOrderValue,CustomerRating
+2001,Basic,Weekly,845,113,Home Delivery,131.25,3.3
+2002,Premium,Monthly,4086,47,Pick-up,142.54,2.72
+2003,Basic,Daily,4738,57,Home Delivery,24.83,2.1
+2004,Basic,Daily,3161,118,Home Delivery,31.68,4.07
+2005,Basic,Daily,1374,45,Home Delivery,142.26,1.91
+2006,Premium,Daily,367,161,Home Delivery,113.11,3.77
+2007,Basic,Daily,2446,145,Home Delivery,133.62,1.93
+2008,Basic,Daily,2212,198,Home Delivery,38.37,3.5
+2009,Basic,Daily,2795,4,Home Delivery,92.26,3.99
+2010,Premium,Weekly,1641,148,Home Delivery,108.16,1.87
+2011,Basic,Monthly,3161,47,Pick-up,105.22,1.24
+2012,Basic,Daily,3980,143,Home Delivery,67.14,1.52
+2013,Basic,Weekly,2046,198,Home Delivery,12.16,3.42
+2014,Basic,Weekly,1362,47,Home Delivery,91.61,4.4
+2015,Premium,Monthly,1335,78,Home Delivery,45.43,1.18
+2016,Basic,Daily,4361,124,Pick-up,73.04,3.94
+2017,Premium,Monthly,2433,75,Pick-up,144.06,2.37
+2018,Premium,Daily,3289,103,Pick-up,65.86,2.91
+2019,Premium,Weekly,2189,137,Pick-up,127.57,4.72
+2020,Basic,Weekly,1754,90,Pick-up,36.4,2.33
+2021,Premium,Weekly,412,144,Pick-up,104.14,2.86
+2022,Basic,Weekly,2654,69,Pick-up,146.78,1.05
+2023,Premium,Monthly,1766,61,Pick-up,24.27,1.33
+2024,Premium,Daily,4501,138,Pick-up,11.16,2.03
+2025,Premium,Daily,4336,50,Pick-up,70.7,1.11
+2026,Premium,Monthly,3788,3,Pick-up,22.97,3.53
+2027,Premium,Daily,2519,107,Pick-up,114.77,2.71
+2028,Premium,Weekly,4845,113,Pick-up,138.04,3.19
+2029,Premium,Daily,606,94,Pick-up,70.76,1.7
+2030,Premium,Weekly,875,118,Pick-up,46.22,2.18
+2031,Basic,Monthly,2858,198,Pick-up,70.82,3.66
+2032,Basic,Daily,4571,81,Home Delivery,111.28,4.86
+2033,Premium,Monthly,2769,109,Pick-up,11.27,1.2
+2034,Premium,Daily,3558,51,Home Delivery,92.52,4.56
+2035,Premium,Weekly,3791,147,Pick-up,95.86,3.31
+2036,Basic,Monthly,1624,170,Pick-up,99.28,3.26
+2037,Premium,Daily,4048,35,Home Delivery,43.88,3.0
+2038,Basic,Weekly,2179,46,Pick-up,109.97,1.28
+2039,Basic,Monthly,2453,154,Home Delivery,22.79,1.36
+2040,Basic,Monthly,3379,69,Home Delivery,37.9,3.4
+2041,Basic,Daily,638,93,Home Delivery,132.85,2.36
+2042,Basic,Daily,2062,64,Pick-up,113.42,4.67
+2043,Premium,Daily,1597,165,Pick-up,11.92,2.63
+2044,Premium,Weekly,344,49,Pick-up,44.77,1.57
+2045,Premium,Daily,2035,149,Home Delivery,40.02,3.86
+2046,Premium,Monthly,3167,74,Home Delivery,47.91,2.17
+2047,Premium,Monthly,1740,192,Pick-up,44.66,3.1
+2048,Basic,Daily,1186,5,Pick-up,18.75,3.79
+2049,Premium,Daily,2114,100,Pick-up,74.25,4.6
+2050,Premium,Monthly,4505,70,Pick-up,112.58,4.17
+2051,Basic,Weekly,4845,90,Pick-up,94.94,3.71
+2052,Premium,Daily,4593,4,Home Delivery,104.2,3.72
+2053,Basic,Daily,4820,126,Home Delivery,21.36,4.78
+2054,Premium,Monthly,1057,39,Home Delivery,143.21,2.18
+2055,Basic,Daily,2564,163,Pick-up,127.39,1.0
+2056,Premium,Weekly,3576,129,Home Delivery,122.71,2.09
+2057,Premium,Monthly,4731,24,Home Delivery,125.22,1.87
+2058,Basic,Daily,1297,57,Home Delivery,140.58,3.65
+2059,Basic,Monthly,3952,100,Home Delivery,86.2,3.53
+2060,Basic,Daily,1485,70,Home Delivery,38.04,3.37
+2061,Basic,Daily,621,41,Pick-up,96.35,1.06
+2062,Basic,Daily,2432,182,Home Delivery,114.0,3.92
+2063,Basic,Weekly,1295,174,Pick-up,113.31,2.29
+2064,Basic,Weekly,2134,60,Pick-up,83.0,3.66
+2065,Basic,Monthly,327,108,Pick-up,19.58,3.23
+2066,Premium,Daily,1937,188,Pick-up,61.96,2.37
+2067,Premium,Daily,4629,57,Pick-up,138.91,1.54
+2068,Basic,Weekly,1315,31,Home Delivery,91.82,1.38
+2069,Premium,Daily,4876,84,Home Delivery,85.37,4.33
+2070,Premium,Weekly,1090,152,Pick-up,47.64,4.67
+2071,Premium,Daily,967,36,Pick-up,61.58,3.6
+2072,Premium,Monthly,935,158,Pick-up,135.35,1.41
+2073,Basic,Daily,2802,152,Home Delivery,103.3,2.61
+2074,Premium,Daily,71,108,Pick-up,120.23,3.92
+2075,Basic,Weekly,4619,106,Home Delivery,73.61,4.12
+2076,Premium,Daily,3241,158,Pick-up,98.23,1.47
+2077,Premium,Daily,2403,86,Home Delivery,44.77,1.0
+2078,Premium,Weekly,4849,135,Pick-up,108.76,3.85
+2079,Basic,Monthly,736,163,Home Delivery,69.86,2.43
+2080,Premium,Monthly,334,183,Pick-up,71.96,2.02
+2081,Basic,Weekly,4861,14,Home Delivery,100.91,1.05
+2082,Premium,Weekly,3797,120,Home Delivery,141.08,3.16
+2083,Basic,Weekly,812,138,Home Delivery,18.96,4.4
+2084,Premium,Weekly,2478,80,Home Delivery,125.46,4.83
+2085,Basic,Weekly,2557,144,Home Delivery,50.93,3.26
+2086,Basic,Monthly,78,182,Home Delivery,72.15,3.06
+2087,Premium,Monthly,956,106,Home Delivery,13.07,1.34
+2088,Basic,Weekly,3154,70,Pick-up,52.15,3.2
+2089,Premium,Daily,4049,44,Pick-up,80.37,2.52
+2090,Premium,Weekly,3044,73,Pick-up,17.86,3.43
+2091,Premium,Daily,2556,45,Pick-up,78.75,2.55
+2092,Premium,Weekly,4715,184,Pick-up,139.8,1.96
+2093,Premium,Weekly,3659,107,Home Delivery,24.76,1.38
+2094,Premium,Monthly,3603,84,Home Delivery,117.02,2.26
+2095,Premium,Daily,1503,82,Home Delivery,67.35,1.39
+2096,Premium,Daily,4883,107,Home Delivery,101.72,1.71
+2097,Premium,Monthly,3406,185,Home Delivery,46.43,4.95
+2098,Premium,Monthly,565,21,Pick-up,32.33,2.78
+2099,Premium,Monthly,88,196,Pick-up,32.46,3.13
+2100,Basic,Monthly,3392,178,Pick-up,19.87,4.49
+2101,Basic,Daily,936,161,Pick-up,35.99,4.98
+2102,Premium,Daily,2894,7,Home Delivery,102.99,3.33
+2103,Premium,Weekly,2254,70,Home Delivery,133.44,4.25
+2104,Premium,Weekly,1148,127,Home Delivery,123.98,2.31
+2105,Premium,Monthly,1873,143,Pick-up,105.92,2.22
+2106,Premium,Monthly,3251,160,Home Delivery,25.46,2.61
+2107,Premium,Monthly,3205,148,Pick-up,50.49,3.69
+2108,Premium,Weekly,3143,143,Home Delivery,53.37,3.73
+2109,Premium,Weekly,3580,176,Home Delivery,44.99,2.26
+2110,Basic,Weekly,3828,199,Pick-up,82.1,1.53
+2111,Premium,Weekly,2946,149,Home Delivery,84.98,3.53
+2112,Basic,Weekly,3503,170,Home Delivery,59.96,1.51
+2113,Premium,Weekly,3561,154,Pick-up,59.53,3.31
+2114,Premium,Weekly,1038,120,Home Delivery,126.0,3.77
+2115,Basic,Monthly,4166,128,Pick-up,120.5,3.8
+2116,Premium,Monthly,4076,142,Home Delivery,53.09,4.01
+2117,Basic,Monthly,4229,57,Home Delivery,137.93,4.49
+2118,Premium,Monthly,1732,165,Home Delivery,143.39,3.0
+2119,Premium,Weekly,4715,58,Home Delivery,55.74,3.92
+2120,Basic,Daily,4013,21,Home Delivery,59.62,3.48
+2121,Premium,Weekly,983,82,Home Delivery,80.79,1.75
+2122,Basic,Daily,3648,69,Home Delivery,141.76,1.1
+2123,Premium,Monthly,3283,131,Home Delivery,132.68,2.14
+2124,Basic,Weekly,2030,87,Pick-up,24.36,2.77
+2125,Basic,Monthly,1905,165,Pick-up,64.98,3.47
+2126,Premium,Weekly,3106,49,Home Delivery,87.47,4.4
+2127,Premium,Monthly,842,147,Home Delivery,80.44,1.78
+2128,Basic,Daily,841,115,Pick-up,37.14,1.5
+2129,Premium,Daily,1859,89,Home Delivery,130.23,4.85
+2130,Premium,Daily,2305,85,Home Delivery,104.77,1.43
+2131,Premium,Weekly,3660,128,Pick-up,127.31,2.91
+2132,Basic,Daily,1657,140,Home Delivery,130.23,3.34
+2133,Basic,Weekly,1034,189,Home Delivery,114.77,3.17
+2134,Basic,Daily,3726,169,Pick-up,71.49,1.34
+2135,Basic,Daily,3430,161,Home Delivery,95.48,1.23
+2136,Basic,Weekly,569,178,Home Delivery,32.45,1.42
+2137,Basic,Weekly,640,117,Pick-up,104.31,3.34
+2138,Basic,Daily,1100,196,Home Delivery,35.1,3.18
+2139,Basic,Weekly,3683,127,Pick-up,107.15,1.93
+2140,Basic,Daily,4494,71,Home Delivery,42.14,3.55
+2141,Premium,Weekly,1009,86,Home Delivery,26.46,4.28
+2142,Basic,Monthly,742,33,Pick-up,33.14,1.17
+2143,Premium,Monthly,3949,81,Pick-up,10.28,2.99
+2144,Premium,Monthly,4523,152,Home Delivery,110.62,3.76
+2145,Premium,Monthly,2996,61,Pick-up,112.54,2.01
+2146,Basic,Monthly,576,61,Pick-up,82.09,2.23
+2147,Basic,Daily,3274,98,Home Delivery,32.59,3.45
+2148,Basic,Monthly,2303,28,Home Delivery,21.7,4.59
+2149,Basic,Monthly,3394,186,Home Delivery,12.68,4.24
+2150,Premium,Monthly,4015,43,Pick-up,33.2,3.33
+2151,Basic,Monthly,1925,169,Pick-up,134.72,3.92
+2152,Basic,Weekly,1813,167,Pick-up,43.82,2.46
+2153,Basic,Daily,570,86,Pick-up,59.6,3.56
+2154,Basic,Monthly,1066,177,Home Delivery,24.75,2.86
+2155,Basic,Monthly,166,17,Pick-up,41.13,1.76
+2156,Premium,Monthly,2483,98,Home Delivery,82.69,3.81
+2157,Basic,Daily,633,198,Pick-up,95.09,3.23
+2158,Premium,Weekly,444,198,Home Delivery,44.35,2.43
+2159,Basic,Daily,3838,98,Home Delivery,18.08,4.65
+2160,Premium,Weekly,2818,65,Home Delivery,64.74,1.08
+2161,Basic,Monthly,4217,74,Pick-up,42.79,2.26
+2162,Basic,Monthly,3910,85,Home Delivery,40.74,1.23
+2163,Premium,Daily,323,5,Home Delivery,144.38,4.07
+2164,Premium,Daily,2063,2,Pick-up,96.28,3.81
+2165,Premium,Weekly,4483,22,Home Delivery,87.96,2.33
+2166,Basic,Weekly,1439,112,Pick-up,68.21,3.7
+2167,Premium,Daily,3616,57,Pick-up,70.05,2.58
+2168,Basic,Weekly,4752,66,Home Delivery,85.73,4.03
+2169,Basic,Daily,215,74,Home Delivery,107.5,2.82
+2170,Premium,Weekly,1617,98,Pick-up,108.3,2.65
+2171,Premium,Daily,778,144,Home Delivery,34.04,4.74
+2172,Basic,Daily,2093,112,Pick-up,80.02,2.0
+2173,Basic,Daily,4247,179,Pick-up,67.67,1.48
+2174,Premium,Weekly,3546,125,Pick-up,131.87,3.34
+2175,Premium,Weekly,828,167,Home Delivery,98.4,4.88
+2176,Premium,Weekly,263,86,Pick-up,84.55,2.51
+2177,Basic,Daily,3812,76,Home Delivery,26.16,1.25
+2178,Basic,Weekly,1626,88,Home Delivery,94.79,2.36
+2179,Basic,Weekly,2498,168,Home Delivery,26.41,3.02
+2180,Basic,Daily,2986,38,Home Delivery,57.21,1.65
+2181,Basic,Monthly,3167,188,Pick-up,30.0,3.63
+2182,Basic,Daily,641,59,Home Delivery,106.89,4.99
+2183,Premium,Weekly,2770,138,Pick-up,38.88,2.81
+2184,Basic,Daily,763,99,Pick-up,64.86,2.42
+2185,Basic,Monthly,985,192,Home Delivery,135.39,2.6
+2186,Basic,Daily,4387,63,Pick-up,38.6,1.46
+2187,Premium,Weekly,51,49,Pick-up,81.09,4.53
+2188,Basic,Monthly,2898,192,Home Delivery,68.7,2.66
+2189,Basic,Weekly,4094,32,Pick-up,12.54,2.55
+2190,Premium,Monthly,1999,135,Pick-up,120.99,3.64
+2191,Basic,Monthly,967,21,Pick-up,19.67,2.77
+2192,Basic,Daily,3224,20,Pick-up,76.4,3.59
+2193,Basic,Daily,2291,154,Home Delivery,88.49,1.25
+2194,Basic,Weekly,139,127,Pick-up,97.98,4.25
+2195,Basic,Daily,1759,68,Pick-up,106.41,4.76
+2196,Premium,Daily,2219,110,Pick-up,45.46,3.6
+2197,Premium,Monthly,4288,116,Pick-up,11.4,4.82
+2198,Premium,Daily,3091,143,Home Delivery,111.28,1.61
+2199,Basic,Monthly,155,120,Pick-up,84.99,2.91
+2200,Basic,Monthly,936,79,Home Delivery,127.06,3.41
+2201,Basic,Monthly,477,116,Pick-up,124.99,3.33
+2202,Premium,Weekly,1945,92,Home Delivery,128.07,2.61
+2203,Basic,Weekly,366,14,Home Delivery,77.91,2.35
+2204,Basic,Weekly,684,155,Home Delivery,56.71,1.51
+2205,Premium,Monthly,1975,125,Home Delivery,120.82,2.57
+2206,Basic,Weekly,2106,168,Home Delivery,73.18,1.65
+2207,Premium,Weekly,3194,58,Pick-up,35.68,3.94
+2208,Premium,Daily,2320,28,Pick-up,129.7,1.84
+2209,Premium,Weekly,1489,26,Pick-up,133.56,1.23
+2210,Basic,Weekly,602,113,Home Delivery,75.28,3.21
+2211,Basic,Monthly,765,191,Pick-up,20.6,3.38
+2212,Basic,Monthly,3961,66,Home Delivery,64.3,4.49
+2213,Basic,Monthly,1763,153,Home Delivery,122.5,3.31
+2214,Basic,Monthly,3439,131,Pick-up,136.25,2.38
+2215,Basic,Monthly,1157,44,Pick-up,38.49,4.21
+2216,Basic,Monthly,4256,97,Home Delivery,19.38,3.16
+2217,Premium,Weekly,300,42,Home Delivery,132.83,1.32
+2218,Basic,Monthly,2480,6,Pick-up,64.52,3.26
+2219,Premium,Monthly,2104,167,Pick-up,85.85,4.63
+2220,Basic,Daily,508,180,Pick-up,145.53,2.59
+2221,Basic,Weekly,257,23,Pick-up,19.32,2.19
+2222,Basic,Weekly,949,89,Home Delivery,100.76,1.57
+2223,Premium,Weekly,3511,123,Pick-up,20.37,1.61
+2224,Premium,Monthly,3435,178,Pick-up,62.57,2.73
+2225,Premium,Monthly,71,171,Pick-up,122.53,3.38
+2226,Premium,Monthly,459,147,Home Delivery,70.69,1.32
+2227,Basic,Daily,944,197,Home Delivery,149.61,4.76
+2228,Premium,Monthly,564,51,Home Delivery,88.27,4.02
+2229,Basic,Daily,4954,11,Home Delivery,54.96,3.35
+2230,Basic,Weekly,4159,12,Pick-up,40.82,4.31
+2231,Premium,Monthly,2184,74,Home Delivery,59.07,1.32
+2232,Premium,Daily,3645,8,Pick-up,62.15,2.91
+2233,Premium,Daily,3006,152,Pick-up,19.62,3.52
+2234,Premium,Monthly,1610,41,Pick-up,61.74,4.31
+2235,Premium,Weekly,1316,164,Pick-up,74.99,4.13
+2236,Premium,Weekly,2219,85,Home Delivery,111.18,2.11
+2237,Premium,Weekly,3688,72,Home Delivery,101.94,4.76
+2238,Premium,Daily,799,55,Home Delivery,109.23,1.5
+2239,Basic,Daily,3477,137,Pick-up,11.17,4.5
+2240,Premium,Daily,4830,47,Pick-up,40.47,4.88
+2241,Premium,Daily,1977,143,Pick-up,102.64,1.71
+2242,Basic,Weekly,3854,176,Pick-up,77.76,3.89
+2243,Premium,Monthly,3752,104,Pick-up,10.74,1.16
+2244,Basic,Daily,2406,42,Home Delivery,122.63,2.62
+2245,Basic,Daily,4840,60,Pick-up,118.19,3.07
+2246,Premium,Weekly,2385,198,Home Delivery,86.78,3.32
+2247,Basic,Monthly,356,12,Pick-up,19.3,4.74
+2248,Basic,Monthly,3715,130,Pick-up,117.31,3.69
+2249,Basic,Weekly,2039,7,Home Delivery,91.72,2.93
+2250,Basic,Weekly,711,80,Home Delivery,119.47,4.24
+2251,Premium,Monthly,4694,131,Pick-up,115.24,4.8
+2252,Basic,Daily,361,109,Pick-up,122.42,1.09
+2253,Premium,Monthly,2970,3,Pick-up,82.52,4.93
+2254,Basic,Weekly,1132,27,Pick-up,29.65,1.34
+2255,Basic,Daily,3021,114,Home Delivery,103.96,4.26
+2256,Basic,Daily,804,107,Pick-up,96.87,2.12
+2257,Basic,Weekly,4180,40,Home Delivery,113.92,1.53
+2258,Premium,Weekly,4590,161,Pick-up,33.78,2.76
+2259,Premium,Weekly,402,129,Home Delivery,37.3,3.58
+2260,Basic,Monthly,952,8,Home Delivery,134.66,2.52
+2261,Basic,Monthly,3938,101,Pick-up,115.0,1.22
+2262,Premium,Daily,208,160,Home Delivery,137.15,3.4
+2263,Basic,Weekly,2027,124,Pick-up,116.22,4.61
+2264,Basic,Daily,1006,176,Home Delivery,93.6,2.53
+2265,Basic,Daily,2121,107,Pick-up,101.58,1.87
+2266,Premium,Daily,453,101,Home Delivery,134.48,2.77
+2267,Premium,Daily,4661,4,Pick-up,91.03,1.19
+2268,Premium,Weekly,2829,198,Pick-up,98.53,4.28
+2269,Basic,Daily,1437,110,Home Delivery,31.91,4.31
+2270,Basic,Weekly,3503,19,Home Delivery,76.35,3.35
+2271,Premium,Weekly,1005,32,Home Delivery,110.3,2.41
+2272,Premium,Monthly,1762,137,Home Delivery,47.93,4.2
+2273,Premium,Weekly,4753,12,Pick-up,38.32,3.22
+2274,Premium,Monthly,1323,139,Home Delivery,53.94,4.3
+2275,Basic,Weekly,3861,46,Pick-up,43.81,3.53
+2276,Premium,Weekly,2675,119,Home Delivery,40.09,4.14
+2277,Basic,Weekly,2432,16,Pick-up,69.48,3.39
+2278,Premium,Monthly,1491,129,Pick-up,137.1,2.66
+2279,Basic,Monthly,3029,63,Pick-up,80.99,4.83
+2280,Premium,Daily,1847,109,Pick-up,36.31,3.16
+2281,Premium,Monthly,4440,119,Home Delivery,20.78,3.42
+2282,Premium,Monthly,4059,21,Home Delivery,107.46,1.88
+2283,Premium,Monthly,4900,158,Pick-up,63.59,3.5
+2284,Basic,Monthly,1444,13,Home Delivery,125.06,3.29
+2285,Premium,Daily,4331,162,Home Delivery,102.33,1.74
+2286,Basic,Monthly,1319,4,Pick-up,121.47,1.24
+2287,Basic,Weekly,4782,156,Home Delivery,48.07,3.42
+2288,Basic,Weekly,3764,102,Home Delivery,106.93,4.05
+2289,Basic,Monthly,579,59,Home Delivery,46.97,3.09
+2290,Premium,Monthly,3673,128,Pick-up,141.47,1.91
+2291,Basic,Weekly,3008,27,Home Delivery,99.09,3.67
+2292,Basic,Weekly,2964,69,Pick-up,55.43,1.32
+2293,Basic,Daily,4939,25,Home Delivery,47.73,2.77
+2294,Premium,Weekly,3641,131,Home Delivery,36.73,1.65
+2295,Premium,Weekly,2197,97,Home Delivery,107.25,1.74
+2296,Premium,Monthly,4623,196,Pick-up,40.62,1.81
+2297,Premium,Weekly,3419,25,Pick-up,93.34,2.55
+2298,Basic,Daily,989,148,Home Delivery,47.05,1.2
+2299,Basic,Weekly,575,162,Pick-up,102.68,2.59
+2300,Premium,Monthly,51,154,Home Delivery,124.09,3.05
+2301,Basic,Monthly,424,126,Pick-up,118.92,2.93
+2302,Basic,Weekly,2390,133,Pick-up,116.52,2.53
+2303,Basic,Monthly,4055,189,Home Delivery,36.28,4.36
+2304,Premium,Daily,3102,9,Home Delivery,22.37,1.58
+2305,Premium,Daily,4698,116,Home Delivery,107.85,3.02
+2306,Basic,Weekly,2415,178,Home Delivery,61.57,1.25
+2307,Premium,Weekly,1575,134,Pick-up,70.53,1.28
+2308,Premium,Weekly,4526,60,Pick-up,14.36,3.3
+2309,Premium,Monthly,1696,172,Pick-up,46.34,3.26
+2310,Premium,Daily,63,121,Home Delivery,14.71,4.51
+2311,Premium,Daily,4649,139,Home Delivery,133.09,3.23
+2312,Basic,Monthly,2328,194,Pick-up,44.08,4.84
+2313,Premium,Daily,3205,175,Home Delivery,88.03,1.19
+2314,Basic,Weekly,179,108,Pick-up,15.46,1.39
+2315,Basic,Weekly,3864,108,Pick-up,103.36,1.18
+2316,Premium,Weekly,4983,131,Pick-up,55.22,1.74
+2317,Basic,Daily,3266,76,Pick-up,135.71,3.17
+2318,Basic,Weekly,2988,30,Pick-up,134.34,3.58
+2319,Basic,Monthly,3978,21,Home Delivery,55.54,1.18
+2320,Premium,Monthly,2090,156,Home Delivery,136.13,4.78
+2321,Premium,Daily,77,190,Home Delivery,149.46,4.37
+2322,Basic,Monthly,2163,161,Pick-up,125.56,2.19
+2323,Premium,Monthly,1302,163,Pick-up,128.28,1.31
+2324,Premium,Daily,4406,180,Pick-up,44.86,1.68
+2325,Premium,Weekly,2096,34,Pick-up,90.74,1.51
+2326,Premium,Weekly,4605,41,Home Delivery,19.42,1.49
+2327,Basic,Weekly,4073,51,Home Delivery,23.29,3.07
+2328,Basic,Daily,4446,175,Pick-up,149.84,1.98
+2329,Premium,Monthly,3424,82,Pick-up,55.73,2.43
+2330,Premium,Weekly,3516,58,Pick-up,114.75,4.96
+2331,Basic,Weekly,3131,75,Home Delivery,122.93,3.74
+2332,Basic,Daily,3828,185,Home Delivery,130.12,4.8
+2333,Premium,Weekly,679,23,Home Delivery,149.67,1.57
+2334,Basic,Daily,319,176,Pick-up,43.81,2.53
+2335,Premium,Monthly,2689,128,Pick-up,15.65,3.22
+2336,Premium,Daily,2043,150,Home Delivery,67.57,1.31
+2337,Basic,Daily,2941,17,Pick-up,28.21,1.02
+2338,Basic,Daily,3482,69,Home Delivery,13.14,3.68
+2339,Premium,Daily,1330,108,Pick-up,60.46,3.57
+2340,Premium,Monthly,2410,139,Home Delivery,119.72,2.64
+2341,Basic,Monthly,625,94,Pick-up,89.27,2.96
+2342,Premium,Weekly,1357,15,Home Delivery,53.79,2.66
+2343,Basic,Monthly,3242,91,Home Delivery,101.61,1.1
+2344,Premium,Monthly,3228,163,Home Delivery,42.48,2.34
+2345,Basic,Weekly,2784,33,Home Delivery,12.01,1.71
+2346,Basic,Monthly,2262,125,Home Delivery,117.01,1.39
+2347,Basic,Daily,2402,16,Home Delivery,97.32,4.83
+2348,Premium,Daily,3618,162,Pick-up,116.72,3.4
+2349,Premium,Weekly,1705,66,Pick-up,15.45,3.91
+2350,Basic,Weekly,1629,168,Pick-up,127.2,2.26
+2351,Premium,Weekly,2253,156,Home Delivery,96.73,2.57
+2352,Basic,Daily,1440,47,Home Delivery,88.88,1.95
+2353,Basic,Monthly,1792,167,Pick-up,97.45,1.39
+2354,Premium,Daily,1975,198,Home Delivery,131.02,1.72
+2355,Premium,Weekly,669,148,Home Delivery,92.17,4.19
+2356,Basic,Monthly,1324,124,Home Delivery,91.33,3.71
+2357,Premium,Monthly,1006,1,Home Delivery,148.7,3.19
+2358,Premium,Daily,1989,87,Home Delivery,115.94,2.9
+2359,Basic,Weekly,4003,128,Pick-up,71.92,4.69
+2360,Basic,Daily,2431,191,Pick-up,109.04,1.29
+2361,Premium,Monthly,1018,67,Pick-up,64.49,2.12
+2362,Basic,Daily,1366,4,Pick-up,42.04,2.4
+2363,Basic,Daily,1093,186,Pick-up,93.56,4.13
+2364,Premium,Weekly,331,153,Home Delivery,139.95,4.97
+2365,Basic,Weekly,2894,47,Home Delivery,140.08,1.96
+2366,Basic,Monthly,1108,38,Home Delivery,57.87,4.5
+2367,Premium,Daily,4343,143,Home Delivery,83.87,4.32
+2368,Premium,Daily,2582,191,Pick-up,39.63,1.9
+2369,Basic,Daily,3878,21,Pick-up,149.39,2.6
+2370,Basic,Monthly,1058,57,Pick-up,147.36,2.64
+2371,Premium,Monthly,1279,117,Home Delivery,100.93,4.91
+2372,Premium,Weekly,1085,181,Pick-up,122.62,1.72
+2373,Premium,Weekly,4635,46,Home Delivery,110.11,4.2
+2374,Premium,Weekly,325,142,Pick-up,93.04,2.34
+2375,Basic,Daily,2790,145,Pick-up,17.47,3.92
+2376,Premium,Daily,2339,39,Home Delivery,73.67,2.68
+2377,Premium,Weekly,1289,137,Home Delivery,104.47,3.31
+2378,Basic,Daily,175,99,Pick-up,104.85,4.33
+2379,Premium,Weekly,4115,77,Pick-up,62.24,4.22
+2380,Basic,Monthly,4362,115,Home Delivery,141.84,4.47
+2381,Premium,Weekly,3918,134,Pick-up,33.43,1.24
+2382,Premium,Monthly,1258,151,Pick-up,80.05,3.77
+2383,Premium,Daily,3299,187,Home Delivery,106.72,1.56
+2384,Basic,Weekly,968,91,Pick-up,107.6,2.66
+2385,Basic,Daily,3973,98,Home Delivery,100.81,3.19
+2386,Premium,Monthly,4453,120,Pick-up,48.54,2.61
+2387,Basic,Monthly,2019,46,Home Delivery,31.87,3.08
+2388,Basic,Monthly,2843,38,Pick-up,99.03,4.99
+2389,Basic,Daily,941,142,Home Delivery,93.9,1.54
+2390,Basic,Daily,4520,100,Pick-up,35.11,3.7
+2391,Basic,Daily,2083,72,Home Delivery,108.72,2.58
+2392,Basic,Daily,1414,190,Pick-up,73.72,1.53
+2393,Premium,Monthly,178,35,Pick-up,103.49,1.63
+2394,Premium,Monthly,1064,147,Pick-up,127.23,4.8
+2395,Basic,Weekly,1849,30,Pick-up,33.76,4.52
+2396,Premium,Weekly,4662,78,Pick-up,12.68,4.63
+2397,Premium,Daily,1568,84,Pick-up,119.07,4.97
+2398,Premium,Monthly,4231,113,Pick-up,95.36,1.83
+2399,Premium,Monthly,1248,25,Pick-up,107.95,2.42
+2400,Basic,Monthly,3923,168,Pick-up,127.34,3.68
+2401,Premium,Weekly,2524,88,Home Delivery,122.39,2.94
+2402,Premium,Weekly,3535,14,Home Delivery,144.53,2.67
+2403,Basic,Monthly,4099,154,Pick-up,85.03,2.43
+2404,Basic,Monthly,3769,102,Home Delivery,78.39,3.38
+2405,Premium,Monthly,352,150,Pick-up,66.26,3.3
+2406,Premium,Weekly,4002,176,Pick-up,31.52,1.65
+2407,Premium,Monthly,4733,83,Home Delivery,90.17,2.89
+2408,Premium,Monthly,1036,110,Pick-up,48.78,3.21
+2409,Premium,Daily,1913,179,Pick-up,138.98,3.28
+2410,Premium,Daily,4490,131,Home Delivery,91.65,1.84
+2411,Basic,Weekly,4959,170,Home Delivery,93.0,3.97
+2412,Premium,Monthly,3122,19,Pick-up,59.69,1.1
+2413,Premium,Monthly,3174,28,Home Delivery,17.28,2.42
+2414,Basic,Daily,1377,173,Home Delivery,14.44,4.12
+2415,Basic,Weekly,2458,71,Pick-up,69.27,3.26
+2416,Basic,Daily,3723,63,Home Delivery,21.84,2.04
+2417,Basic,Daily,3341,73,Home Delivery,94.96,3.78
+2418,Premium,Daily,4083,124,Pick-up,133.34,3.27
+2419,Premium,Daily,753,119,Home Delivery,133.61,4.18
+2420,Premium,Monthly,624,121,Home Delivery,102.27,3.94
+2421,Premium,Monthly,3282,19,Pick-up,39.57,3.44
+2422,Premium,Daily,4833,175,Pick-up,130.82,2.95
+2423,Premium,Weekly,2682,142,Pick-up,134.05,1.53
+2424,Basic,Weekly,3878,120,Home Delivery,37.53,2.05
+2425,Premium,Weekly,3280,166,Pick-up,113.24,2.68
+2426,Basic,Weekly,538,181,Pick-up,50.11,3.4
+2427,Basic,Daily,1397,61,Home Delivery,122.37,3.05
+2428,Premium,Monthly,3731,164,Pick-up,149.61,2.15
+2429,Basic,Weekly,3223,168,Pick-up,14.2,1.03
+2430,Premium,Daily,4639,30,Pick-up,135.63,2.98
+2431,Basic,Weekly,1717,9,Pick-up,97.17,2.14
+2432,Premium,Weekly,1687,64,Home Delivery,146.27,3.94
+2433,Basic,Daily,4164,161,Pick-up,75.1,1.1
+2434,Premium,Monthly,3603,120,Pick-up,128.63,3.34
+2435,Premium,Monthly,1050,52,Home Delivery,18.74,4.77
+2436,Premium,Daily,900,89,Pick-up,56.94,1.7
+2437,Premium,Monthly,1438,142,Home Delivery,19.38,2.89
+2438,Premium,Daily,3762,53,Home Delivery,146.55,1.37
+2439,Basic,Daily,1417,187,Home Delivery,124.38,3.5
+2440,Basic,Daily,871,78,Pick-up,129.36,3.2
+2441,Basic,Monthly,504,41,Home Delivery,141.32,2.63
+2442,Premium,Daily,1674,196,Home Delivery,21.91,3.09
+2443,Basic,Weekly,2822,68,Home Delivery,63.98,4.59
+2444,Premium,Monthly,3776,8,Pick-up,19.94,1.79
+2445,Premium,Monthly,3197,2,Pick-up,39.51,1.09
+2446,Basic,Monthly,4139,105,Pick-up,42.11,4.45
+2447,Basic,Monthly,4856,125,Pick-up,75.68,3.31
+2448,Premium,Weekly,2240,110,Pick-up,47.6,4.56
+2449,Basic,Monthly,966,86,Pick-up,24.14,3.39
+2450,Premium,Monthly,4036,169,Pick-up,33.45,4.24
+2451,Premium,Daily,2925,120,Home Delivery,30.62,2.72
+2452,Premium,Monthly,1490,127,Home Delivery,146.23,4.0
+2453,Premium,Weekly,4450,183,Home Delivery,116.3,4.65
+2454,Premium,Weekly,785,16,Home Delivery,145.49,3.29
+2455,Basic,Weekly,3618,62,Pick-up,71.56,1.72
+2456,Basic,Weekly,3388,113,Home Delivery,48.97,2.08
+2457,Premium,Monthly,3065,176,Home Delivery,121.76,1.79
+2458,Premium,Monthly,2939,158,Home Delivery,55.68,1.99
+2459,Basic,Weekly,1011,12,Home Delivery,51.91,2.23
+2460,Basic,Weekly,3039,35,Pick-up,42.55,3.22
+2461,Premium,Monthly,3898,11,Pick-up,28.16,3.35
+2462,Basic,Weekly,1076,64,Pick-up,45.9,2.71
+2463,Premium,Daily,3915,50,Home Delivery,59.74,3.46
+2464,Basic,Weekly,2913,149,Pick-up,104.36,1.33
+2465,Premium,Weekly,2551,69,Home Delivery,18.76,1.35
+2466,Basic,Daily,1997,48,Pick-up,39.47,1.69
+2467,Premium,Daily,1227,20,Pick-up,123.26,3.07
+2468,Basic,Monthly,4810,101,Pick-up,30.57,1.86
+2469,Basic,Monthly,61,195,Pick-up,57.97,2.13
+2470,Premium,Daily,4449,172,Pick-up,131.05,2.6
+2471,Basic,Daily,3414,161,Home Delivery,31.69,4.25
+2472,Premium,Monthly,3072,189,Pick-up,21.58,1.06
+2473,Basic,Weekly,3421,137,Home Delivery,77.84,3.6
+2474,Premium,Daily,2880,68,Home Delivery,52.34,3.68
+2475,Basic,Monthly,92,35,Home Delivery,88.88,4.19
+2476,Premium,Weekly,993,65,Home Delivery,122.53,4.73
+2477,Basic,Daily,2440,8,Home Delivery,29.2,1.08
+2478,Premium,Weekly,2595,45,Pick-up,91.3,1.62
+2479,Basic,Monthly,2461,87,Pick-up,80.77,4.54
+2480,Premium,Daily,1054,175,Pick-up,30.17,2.83
+2481,Premium,Weekly,70,168,Pick-up,97.36,3.26
+2482,Premium,Daily,456,76,Home Delivery,48.31,3.65
+2483,Basic,Weekly,1064,182,Pick-up,78.3,3.72
+2484,Premium,Monthly,4481,76,Pick-up,21.52,4.73
+2485,Basic,Monthly,1888,174,Home Delivery,74.34,4.99
+2486,Premium,Daily,3238,47,Home Delivery,52.9,3.88
+2487,Basic,Weekly,764,15,Pick-up,125.13,2.15
+2488,Premium,Daily,4196,105,Pick-up,17.98,4.52
+2489,Basic,Daily,3904,147,Home Delivery,68.61,1.2
+2490,Basic,Weekly,4469,26,Pick-up,74.18,1.92
+2491,Premium,Weekly,4934,52,Pick-up,111.5,4.59
+2492,Basic,Weekly,190,93,Pick-up,90.4,2.02
+2493,Basic,Monthly,4615,150,Pick-up,103.41,1.88
+2494,Premium,Daily,4932,21,Home Delivery,118.79,1.55
+2495,Basic,Daily,1013,51,Home Delivery,130.71,4.44
+2496,Basic,Monthly,422,38,Home Delivery,53.94,3.0
+2497,Basic,Weekly,3685,20,Pick-up,85.32,3.7
+2498,Premium,Monthly,2591,157,Pick-up,127.62,1.96
+2499,Basic,Monthly,3660,179,Pick-up,148.52,4.03
+2500,Premium,Monthly,1742,132,Pick-up,134.53,4.04
+2501,Basic,Daily,155,55,Pick-up,62.01,2.25
+2502,Basic,Monthly,1731,199,Home Delivery,37.32,2.64
+2503,Basic,Daily,4147,92,Pick-up,78.51,1.84
+2504,Premium,Daily,4066,28,Pick-up,113.83,4.91
+2505,Basic,Daily,2686,4,Home Delivery,78.96,3.58
+2506,Basic,Weekly,2187,150,Pick-up,77.65,4.74
+2507,Premium,Daily,3466,76,Home Delivery,127.35,2.21
+2508,Basic,Daily,4495,173,Home Delivery,60.6,4.13
+2509,Premium,Weekly,3580,67,Home Delivery,130.37,4.06
+2510,Premium,Daily,1336,86,Home Delivery,66.95,3.77
+2511,Basic,Monthly,3229,194,Home Delivery,55.95,4.86
+2512,Premium,Monthly,3704,162,Pick-up,73.56,2.57
+2513,Basic,Daily,2409,91,Home Delivery,116.74,1.52
+2514,Premium,Weekly,494,183,Home Delivery,27.64,3.69
+2515,Premium,Monthly,85,105,Pick-up,37.5,3.92
+2516,Basic,Weekly,1525,1,Pick-up,143.2,3.3
+2517,Premium,Weekly,4007,72,Home Delivery,34.57,1.83
+2518,Premium,Monthly,1848,87,Pick-up,89.48,3.02
+2519,Premium,Weekly,1895,166,Pick-up,91.1,2.25
+2520,Premium,Monthly,1458,6,Home Delivery,78.55,2.71
+2521,Premium,Weekly,1758,153,Home Delivery,100.26,3.58
+2522,Basic,Monthly,2988,145,Pick-up,42.18,3.98
+2523,Premium,Daily,1350,61,Home Delivery,87.37,1.93
+2524,Basic,Monthly,1293,12,Home Delivery,62.1,2.62
+2525,Premium,Monthly,4026,6,Pick-up,102.63,2.08
+2526,Basic,Monthly,3147,27,Home Delivery,29.77,1.79
+2527,Basic,Monthly,4666,136,Home Delivery,89.92,4.13
+2528,Premium,Weekly,59,124,Home Delivery,35.94,4.64
+2529,Premium,Daily,2475,106,Home Delivery,49.01,2.48
+2530,Premium,Monthly,1710,193,Home Delivery,40.62,4.01
+2531,Basic,Weekly,2681,185,Pick-up,35.6,4.59
+2532,Premium,Daily,4865,93,Pick-up,125.6,4.38
+2533,Basic,Daily,1122,109,Home Delivery,50.0,1.73
+2534,Basic,Daily,3275,99,Pick-up,139.8,4.83
+2535,Basic,Daily,1366,168,Home Delivery,145.79,2.51
+2536,Premium,Monthly,4195,142,Home Delivery,89.98,2.36
+2537,Premium,Monthly,3733,35,Home Delivery,30.02,1.25
+2538,Basic,Weekly,3323,176,Home Delivery,62.44,2.94
+2539,Basic,Weekly,195,84,Home Delivery,121.68,1.44
+2540,Premium,Weekly,3090,56,Pick-up,61.43,1.99
+2541,Basic,Daily,1512,177,Pick-up,22.18,2.27
+2542,Premium,Daily,4726,141,Home Delivery,87.95,4.24
+2543,Basic,Monthly,1634,189,Pick-up,128.32,4.5
+2544,Premium,Daily,532,49,Home Delivery,121.43,2.21
+2545,Basic,Daily,3229,46,Pick-up,34.52,4.43
+2546,Premium,Daily,1299,113,Home Delivery,104.19,4.43
+2547,Basic,Weekly,4818,190,Pick-up,40.87,4.06
+2548,Premium,Weekly,680,136,Home Delivery,40.55,1.59
+2549,Premium,Monthly,711,43,Home Delivery,132.37,3.76
+2550,Basic,Daily,3553,148,Pick-up,44.95,4.78
+2551,Basic,Daily,2902,124,Pick-up,46.85,3.73
+2552,Premium,Monthly,2516,97,Home Delivery,10.09,2.33
+2553,Basic,Daily,1037,90,Pick-up,131.89,3.0
+2554,Premium,Daily,1596,39,Home Delivery,120.96,3.58
+2555,Basic,Weekly,699,85,Pick-up,97.83,3.04
+2556,Premium,Monthly,1018,177,Pick-up,115.04,1.48
+2557,Premium,Monthly,2687,192,Home Delivery,31.29,2.25
+2558,Premium,Monthly,1150,62,Pick-up,74.17,4.21
+2559,Premium,Monthly,490,106,Pick-up,59.17,4.45
+2560,Premium,Weekly,819,107,Home Delivery,23.13,1.55
+2561,Premium,Weekly,1393,54,Pick-up,78.06,4.81
+2562,Basic,Daily,4408,126,Home Delivery,138.9,2.32
+2563,Basic,Daily,3779,9,Home Delivery,15.61,3.65
+2564,Basic,Daily,3956,88,Home Delivery,50.8,4.01
+2565,Premium,Daily,1627,37,Home Delivery,39.06,4.25
+2566,Premium,Weekly,4058,49,Home Delivery,43.34,4.78
+2567,Premium,Monthly,3401,41,Pick-up,137.18,2.25
+2568,Premium,Weekly,4845,17,Home Delivery,75.53,4.43
+2569,Basic,Daily,2399,88,Home Delivery,75.28,1.53
+2570,Basic,Weekly,3652,21,Pick-up,116.48,3.82
+2571,Premium,Monthly,1291,51,Pick-up,31.63,3.97
+2572,Basic,Monthly,1175,59,Pick-up,78.22,3.71
+2573,Basic,Weekly,2651,167,Home Delivery,70.2,2.01
+2574,Premium,Weekly,1240,183,Home Delivery,93.57,4.49
+2575,Basic,Weekly,4181,41,Home Delivery,149.94,1.68
+2576,Premium,Daily,4889,39,Pick-up,117.72,1.21
+2577,Basic,Weekly,4498,141,Home Delivery,65.7,3.87
+2578,Premium,Weekly,122,192,Pick-up,125.86,2.9
+2579,Premium,Weekly,1964,11,Home Delivery,33.9,4.4
+2580,Premium,Monthly,2522,147,Pick-up,14.26,2.53
+2581,Premium,Monthly,3096,139,Home Delivery,38.62,1.67
+2582,Basic,Daily,757,77,Home Delivery,57.66,4.35
+2583,Premium,Daily,1854,127,Home Delivery,81.48,3.2
+2584,Premium,Monthly,3763,46,Pick-up,96.12,1.76
+2585,Premium,Monthly,2614,45,Pick-up,137.48,3.88
+2586,Basic,Monthly,2525,1,Home Delivery,81.38,3.04
+2587,Premium,Weekly,3660,168,Home Delivery,80.18,3.42
+2588,Basic,Weekly,4305,108,Home Delivery,17.03,2.84
+2589,Premium,Monthly,2873,19,Pick-up,14.89,4.31
+2590,Basic,Weekly,1785,76,Home Delivery,87.16,4.32
+2591,Basic,Weekly,1635,72,Home Delivery,71.35,3.84
+2592,Premium,Daily,116,189,Home Delivery,127.49,1.42
+2593,Basic,Monthly,3111,109,Home Delivery,32.5,4.36
+2594,Premium,Monthly,2478,12,Pick-up,13.5,3.68
+2595,Premium,Weekly,4203,189,Pick-up,72.87,3.79
+2596,Premium,Monthly,391,161,Home Delivery,43.25,2.45
+2597,Basic,Daily,2824,45,Home Delivery,16.95,4.52
+2598,Basic,Daily,2867,90,Pick-up,111.44,3.9
+2599,Premium,Daily,2711,103,Pick-up,25.62,1.45
+2600,Premium,Monthly,1282,197,Home Delivery,95.16,2.63
+2601,Basic,Monthly,3924,8,Pick-up,49.35,4.55
+2602,Premium,Monthly,2451,153,Pick-up,34.29,1.19
+2603,Premium,Monthly,1544,91,Home Delivery,63.17,4.85
+2604,Premium,Monthly,4261,174,Pick-up,122.2,3.72
+2605,Basic,Daily,711,87,Pick-up,64.89,3.53
+2606,Basic,Weekly,3933,158,Home Delivery,115.11,2.08
+2607,Basic,Daily,3669,175,Home Delivery,27.57,2.0
+2608,Premium,Monthly,1918,177,Pick-up,118.19,4.77
+2609,Premium,Daily,2384,175,Home Delivery,43.17,2.19
+2610,Premium,Monthly,3424,84,Pick-up,104.84,4.1
+2611,Basic,Monthly,1066,82,Home Delivery,89.21,2.57
+2612,Premium,Daily,4456,146,Pick-up,140.08,1.56
+2613,Premium,Monthly,257,194,Home Delivery,64.23,1.04
+2614,Premium,Weekly,2715,68,Pick-up,19.26,3.18
+2615,Premium,Monthly,2543,161,Pick-up,12.68,4.9
+2616,Basic,Weekly,682,127,Pick-up,125.76,2.48
+2617,Basic,Weekly,2152,164,Home Delivery,83.46,2.43
+2618,Premium,Monthly,3009,82,Home Delivery,118.53,2.38
+2619,Basic,Daily,3133,147,Pick-up,42.82,3.08
+2620,Basic,Weekly,4802,156,Pick-up,58.31,2.76
+2621,Premium,Daily,1981,168,Home Delivery,14.21,4.52
+2622,Premium,Weekly,3769,84,Home Delivery,144.61,3.02
+2623,Basic,Monthly,2612,113,Home Delivery,103.5,3.03
+2624,Premium,Monthly,1729,76,Home Delivery,140.65,1.55
+2625,Basic,Weekly,286,122,Home Delivery,47.17,4.93
+2626,Premium,Monthly,4493,143,Home Delivery,95.6,2.0
+2627,Basic,Weekly,4775,41,Pick-up,104.99,1.29
+2628,Premium,Monthly,1590,167,Home Delivery,54.46,3.65
+2629,Basic,Daily,3993,2,Pick-up,128.74,3.38
+2630,Basic,Monthly,413,191,Home Delivery,142.6,2.66
+2631,Basic,Daily,2418,29,Home Delivery,133.88,2.69
+2632,Premium,Monthly,335,105,Pick-up,113.47,4.14
+2633,Basic,Daily,198,194,Pick-up,48.85,1.78
+2634,Basic,Monthly,4087,51,Home Delivery,49.43,4.28
+2635,Premium,Daily,4601,75,Pick-up,144.87,3.59
+2636,Premium,Weekly,1816,10,Pick-up,11.44,2.68
+2637,Basic,Weekly,4945,142,Pick-up,110.25,2.83
+2638,Basic,Daily,1062,51,Pick-up,108.87,2.03
+2639,Premium,Monthly,2881,118,Home Delivery,97.18,4.01
+2640,Premium,Daily,2557,121,Pick-up,148.62,3.05
+2641,Premium,Monthly,1573,39,Home Delivery,53.66,2.28
+2642,Premium,Weekly,2835,28,Home Delivery,57.6,3.38
+2643,Premium,Monthly,2606,3,Home Delivery,21.05,4.98
+2644,Basic,Weekly,3775,84,Home Delivery,71.99,2.74
+2645,Premium,Monthly,4626,198,Pick-up,46.55,4.68
+2646,Basic,Monthly,1651,155,Pick-up,58.07,2.38
+2647,Basic,Monthly,2458,117,Home Delivery,126.84,1.22
+2648,Basic,Daily,390,2,Home Delivery,140.97,1.82
+2649,Premium,Daily,2867,93,Home Delivery,36.0,2.67
+2650,Basic,Weekly,2546,166,Home Delivery,62.15,1.88
+2651,Basic,Weekly,4980,131,Pick-up,140.01,1.0
+2652,Premium,Daily,1775,144,Home Delivery,18.65,4.66
+2653,Basic,Weekly,1739,94,Pick-up,22.93,4.38
+2654,Basic,Daily,3317,40,Home Delivery,32.79,3.97
+2655,Premium,Monthly,4456,2,Home Delivery,93.33,1.67
+2656,Basic,Weekly,311,81,Home Delivery,31.07,1.48
+2657,Basic,Weekly,1492,169,Home Delivery,145.53,1.27
+2658,Basic,Daily,455,12,Pick-up,72.54,3.9
+2659,Premium,Weekly,2240,163,Pick-up,80.21,4.72
+2660,Premium,Weekly,4487,65,Pick-up,44.53,2.72
+2661,Premium,Monthly,293,55,Home Delivery,75.93,1.48
+2662,Basic,Weekly,4635,45,Home Delivery,102.67,3.05
+2663,Basic,Monthly,4157,101,Pick-up,115.16,2.4
+2664,Premium,Daily,610,62,Pick-up,115.54,2.5
+2665,Basic,Weekly,4187,49,Home Delivery,90.9,3.49
+2666,Basic,Monthly,2775,127,Home Delivery,136.61,3.87
+2667,Premium,Daily,643,153,Pick-up,124.44,1.44
+2668,Premium,Weekly,1876,23,Home Delivery,115.99,1.14
+2669,Basic,Daily,3279,152,Home Delivery,17.78,4.98
+2670,Basic,Weekly,3337,38,Pick-up,10.96,1.93
+2671,Basic,Daily,4123,28,Home Delivery,39.74,1.22
+2672,Premium,Daily,183,21,Pick-up,102.89,1.76
+2673,Premium,Monthly,3188,182,Home Delivery,67.57,1.16
+2674,Premium,Daily,3969,107,Pick-up,66.34,2.57
+2675,Premium,Weekly,122,146,Home Delivery,133.84,4.21
+2676,Basic,Weekly,4544,164,Pick-up,135.38,2.36
+2677,Premium,Monthly,4275,99,Pick-up,137.28,2.78
+2678,Premium,Weekly,3028,173,Pick-up,53.94,3.7
+2679,Premium,Weekly,4411,119,Pick-up,106.75,3.04
+2680,Premium,Weekly,2035,73,Home Delivery,48.03,4.45
+2681,Premium,Daily,842,181,Home Delivery,36.69,4.46
+2682,Basic,Daily,4309,122,Pick-up,35.85,1.04
+2683,Basic,Weekly,144,30,Home Delivery,57.9,4.11
+2684,Premium,Monthly,1183,188,Home Delivery,70.19,2.84
+2685,Basic,Daily,4967,108,Home Delivery,126.33,4.96
+2686,Premium,Monthly,287,98,Home Delivery,26.78,2.93
+2687,Premium,Weekly,2996,32,Home Delivery,112.89,4.95
+2688,Basic,Weekly,2580,195,Pick-up,84.4,4.02
+2689,Basic,Daily,2010,195,Pick-up,50.31,1.99
+2690,Premium,Weekly,1098,156,Pick-up,78.99,3.15
+2691,Premium,Daily,2579,172,Pick-up,51.99,4.97
+2692,Premium,Weekly,3014,79,Home Delivery,93.45,4.43
+2693,Basic,Weekly,1013,41,Home Delivery,70.74,1.39
+2694,Premium,Daily,586,63,Pick-up,33.02,3.83
+2695,Premium,Daily,4273,23,Home Delivery,26.32,2.38
+2696,Premium,Daily,3729,104,Home Delivery,86.54,1.03
+2697,Basic,Weekly,4237,75,Pick-up,136.34,2.61
+2698,Premium,Weekly,3774,48,Home Delivery,58.15,1.94
+2699,Premium,Monthly,592,160,Pick-up,112.62,4.28
+2700,Basic,Daily,895,57,Pick-up,102.21,2.35
+2701,Premium,Weekly,3653,118,Home Delivery,140.42,4.31
+2702,Premium,Weekly,3086,100,Home Delivery,124.94,1.0
+2703,Basic,Daily,2544,124,Pick-up,89.32,2.23
+2704,Premium,Monthly,4535,161,Pick-up,101.98,1.96
+2705,Basic,Daily,2769,152,Home Delivery,135.77,1.93
+2706,Basic,Monthly,1934,167,Pick-up,65.93,1.27
+2707,Premium,Weekly,4188,34,Pick-up,55.75,1.75
+2708,Premium,Monthly,4399,184,Pick-up,11.51,3.22
+2709,Premium,Weekly,3251,156,Home Delivery,125.72,2.17
+2710,Premium,Daily,2760,165,Pick-up,122.14,2.67
+2711,Basic,Daily,2003,7,Home Delivery,24.62,2.51
+2712,Premium,Daily,4787,196,Pick-up,90.76,4.5
+2713,Basic,Monthly,3900,165,Home Delivery,74.96,4.62
+2714,Premium,Weekly,739,56,Pick-up,26.62,2.97
+2715,Premium,Daily,2000,65,Home Delivery,147.28,2.32
+2716,Premium,Daily,506,193,Home Delivery,40.06,1.43
+2717,Basic,Weekly,2180,47,Home Delivery,19.41,4.81
+2718,Premium,Daily,4026,148,Pick-up,93.28,1.24
+2719,Premium,Weekly,4294,19,Pick-up,113.44,2.19
+2720,Premium,Weekly,1229,157,Pick-up,14.54,2.19
+2721,Premium,Weekly,4335,188,Home Delivery,102.22,2.28
+2722,Basic,Weekly,3615,146,Pick-up,84.52,1.66
+2723,Premium,Weekly,932,163,Home Delivery,24.46,4.13
+2724,Basic,Monthly,449,171,Pick-up,34.15,1.49
+2725,Basic,Daily,658,126,Home Delivery,89.52,3.54
+2726,Basic,Monthly,1688,139,Home Delivery,51.49,1.5
+2727,Basic,Daily,2198,49,Home Delivery,141.36,1.28
+2728,Basic,Monthly,1432,113,Pick-up,124.62,4.64
+2729,Basic,Weekly,1453,38,Pick-up,147.7,1.76
+2730,Premium,Daily,869,64,Pick-up,46.35,4.29
+2731,Basic,Daily,3342,69,Home Delivery,145.76,3.18
+2732,Basic,Monthly,869,136,Home Delivery,70.37,1.31
+2733,Basic,Monthly,469,162,Pick-up,58.65,4.82
+2734,Premium,Daily,4269,176,Pick-up,17.05,1.99
+2735,Premium,Monthly,4567,116,Pick-up,17.39,4.44
+2736,Basic,Monthly,3352,184,Home Delivery,106.88,1.68
+2737,Premium,Monthly,1558,65,Home Delivery,74.11,4.42
+2738,Basic,Weekly,817,31,Home Delivery,41.71,1.05
+2739,Basic,Weekly,2094,132,Home Delivery,95.96,3.05
+2740,Premium,Monthly,2189,113,Home Delivery,45.4,4.08
+2741,Basic,Monthly,3079,109,Pick-up,90.87,4.74
+2742,Premium,Weekly,1599,178,Home Delivery,60.29,4.64
+2743,Premium,Weekly,1814,69,Home Delivery,125.3,4.28
+2744,Basic,Daily,2695,158,Home Delivery,124.9,4.55
+2745,Basic,Daily,3766,120,Home Delivery,76.83,1.8
+2746,Premium,Weekly,4655,88,Home Delivery,59.11,2.14
+2747,Basic,Monthly,4531,187,Pick-up,60.76,2.16
+2748,Basic,Monthly,2343,67,Home Delivery,122.8,2.51
+2749,Basic,Monthly,4887,75,Home Delivery,55.95,2.57
+2750,Premium,Monthly,2758,45,Home Delivery,39.27,3.18
+2751,Premium,Daily,950,4,Pick-up,21.86,1.64
+2752,Basic,Weekly,3134,154,Pick-up,75.34,3.76
+2753,Premium,Monthly,2059,155,Pick-up,77.5,1.67
+2754,Premium,Daily,291,174,Home Delivery,127.73,2.24
+2755,Premium,Monthly,2435,107,Pick-up,40.97,3.01
+2756,Premium,Weekly,4318,192,Home Delivery,63.34,4.19
+2757,Premium,Daily,721,51,Home Delivery,123.18,3.96
+2758,Basic,Weekly,213,50,Pick-up,125.31,3.58
+2759,Basic,Weekly,514,6,Home Delivery,63.85,1.62
+2760,Basic,Daily,3092,59,Home Delivery,74.28,3.19
+2761,Premium,Daily,4642,125,Home Delivery,52.46,1.35
+2762,Premium,Daily,4845,143,Pick-up,140.56,2.51
+2763,Basic,Daily,2492,30,Home Delivery,26.61,2.65
+2764,Premium,Daily,4848,170,Home Delivery,140.72,1.16
+2765,Basic,Daily,2405,122,Pick-up,105.74,2.1
+2766,Basic,Daily,4328,125,Home Delivery,84.42,4.82
+2767,Basic,Monthly,4774,37,Home Delivery,14.57,4.81
+2768,Premium,Weekly,2607,170,Pick-up,76.58,2.41
+2769,Premium,Daily,595,124,Home Delivery,67.08,1.17
+2770,Basic,Monthly,4769,101,Home Delivery,32.57,1.72
+2771,Basic,Monthly,3885,35,Home Delivery,101.9,2.57
+2772,Basic,Monthly,643,87,Home Delivery,145.96,4.79
+2773,Basic,Weekly,4889,134,Home Delivery,88.71,1.56
+2774,Premium,Daily,3854,196,Pick-up,110.07,4.05
+2775,Premium,Monthly,1509,18,Pick-up,19.58,1.43
+2776,Basic,Weekly,3543,113,Pick-up,68.47,4.93
+2777,Basic,Weekly,2651,29,Pick-up,26.29,2.53
+2778,Premium,Weekly,2494,77,Home Delivery,95.79,4.1
+2779,Premium,Monthly,2722,59,Home Delivery,141.39,2.37
+2780,Basic,Daily,4250,175,Home Delivery,102.65,3.51
+2781,Basic,Monthly,66,126,Home Delivery,20.75,1.77
+2782,Basic,Monthly,3241,145,Home Delivery,59.65,1.58
+2783,Premium,Daily,442,109,Pick-up,87.09,4.75
+2784,Premium,Daily,474,22,Pick-up,66.45,4.67
+2785,Premium,Daily,621,68,Home Delivery,126.71,4.55
+2786,Basic,Weekly,3681,69,Home Delivery,124.05,3.5
+2787,Basic,Daily,1170,165,Home Delivery,95.66,4.23
+2788,Premium,Monthly,291,49,Pick-up,62.28,1.28
+2789,Premium,Daily,3947,141,Home Delivery,45.75,2.34
+2790,Basic,Monthly,4145,162,Home Delivery,24.82,2.25
+2791,Premium,Weekly,2329,109,Home Delivery,59.69,3.54
+2792,Premium,Monthly,838,86,Pick-up,67.84,2.42
+2793,Basic,Monthly,764,53,Home Delivery,104.62,1.59
+2794,Premium,Daily,4904,123,Pick-up,102.14,3.39
+2795,Basic,Daily,2899,87,Pick-up,19.82,4.26
+2796,Basic,Monthly,825,179,Pick-up,65.34,2.53
+2797,Basic,Daily,4076,131,Pick-up,35.45,1.53
+2798,Basic,Weekly,2297,42,Pick-up,31.95,1.79
+2799,Basic,Weekly,128,98,Pick-up,125.82,1.95
+2800,Basic,Daily,3976,160,Home Delivery,15.87,2.2
+2801,Basic,Weekly,905,109,Home Delivery,68.69,3.57
+2802,Premium,Daily,2198,51,Home Delivery,33.55,3.4
+2803,Basic,Monthly,1081,85,Pick-up,133.11,3.78
+2804,Basic,Monthly,4990,174,Home Delivery,87.99,2.45
+2805,Premium,Weekly,3321,127,Pick-up,42.39,4.3
+2806,Premium,Daily,3626,21,Pick-up,80.34,1.82
+2807,Premium,Daily,4232,44,Pick-up,112.41,2.88
+2808,Basic,Weekly,3506,139,Home Delivery,144.14,4.2
+2809,Premium,Monthly,3556,103,Pick-up,40.86,1.72
+2810,Basic,Weekly,457,68,Pick-up,134.07,1.44
+2811,Basic,Monthly,2761,129,Home Delivery,140.8,4.53
+2812,Basic,Daily,3138,92,Home Delivery,138.3,2.37
+2813,Basic,Monthly,1718,191,Pick-up,98.96,3.74
+2814,Premium,Weekly,197,24,Pick-up,98.17,1.1
+2815,Premium,Daily,4377,125,Home Delivery,66.45,3.76
+2816,Basic,Weekly,3947,141,Home Delivery,115.34,2.26
+2817,Basic,Weekly,2000,111,Home Delivery,84.38,1.22
+2818,Basic,Monthly,415,98,Pick-up,104.84,3.44
+2819,Premium,Weekly,1724,139,Home Delivery,69.98,1.96
+2820,Basic,Monthly,4581,179,Home Delivery,112.41,2.55
+2821,Basic,Daily,4544,17,Home Delivery,125.43,1.32
+2822,Premium,Monthly,2596,99,Pick-up,30.5,1.59
+2823,Premium,Daily,612,82,Home Delivery,126.61,2.19
+2824,Basic,Monthly,3612,104,Home Delivery,85.64,1.36
+2825,Premium,Weekly,2539,152,Home Delivery,128.25,4.64
+2826,Premium,Monthly,822,19,Home Delivery,70.38,1.02
+2827,Basic,Monthly,2087,165,Home Delivery,63.07,2.94
+2828,Premium,Daily,3473,85,Pick-up,138.11,1.49
+2829,Basic,Weekly,2617,8,Pick-up,45.16,2.23
+2830,Premium,Monthly,1623,28,Pick-up,128.19,4.7
+2831,Basic,Weekly,3744,5,Home Delivery,77.76,1.65
+2832,Basic,Monthly,3341,145,Pick-up,81.97,4.86
+2833,Basic,Monthly,1296,101,Pick-up,53.19,1.82
+2834,Premium,Weekly,3769,164,Pick-up,90.23,3.97
+2835,Basic,Monthly,3889,118,Home Delivery,55.53,3.19
+2836,Premium,Weekly,409,147,Home Delivery,15.5,4.54
+2837,Basic,Monthly,2426,64,Pick-up,48.08,3.22
+2838,Basic,Daily,3059,91,Pick-up,10.89,3.14
+2839,Premium,Weekly,3043,117,Home Delivery,146.97,1.78
+2840,Basic,Monthly,1012,98,Home Delivery,145.2,1.66
+2841,Basic,Monthly,3682,11,Pick-up,65.32,4.67
+2842,Premium,Daily,1877,54,Home Delivery,111.97,2.31
+2843,Basic,Weekly,1663,173,Pick-up,58.41,2.49
+2844,Basic,Monthly,1690,47,Home Delivery,103.95,4.04
+2845,Basic,Daily,2266,140,Pick-up,122.76,2.36
+2846,Basic,Monthly,4362,149,Pick-up,142.55,4.81
+2847,Premium,Weekly,427,139,Home Delivery,66.03,3.95
+2848,Premium,Monthly,4264,5,Pick-up,119.66,3.39
+2849,Basic,Monthly,4335,184,Pick-up,47.23,4.52
+2850,Premium,Monthly,419,20,Pick-up,148.65,1.2
+2851,Basic,Monthly,2246,169,Home Delivery,13.61,2.03
+2852,Premium,Daily,3797,46,Home Delivery,94.49,2.86
+2853,Basic,Daily,701,12,Home Delivery,102.33,1.91
+2854,Basic,Weekly,819,70,Pick-up,106.33,3.98
+2855,Basic,Daily,2471,17,Home Delivery,26.85,4.68
+2856,Basic,Daily,830,115,Pick-up,141.39,2.7
+2857,Basic,Weekly,1766,147,Pick-up,35.37,2.37
+2858,Basic,Daily,4033,154,Home Delivery,97.19,4.85
+2859,Premium,Daily,1361,48,Home Delivery,41.17,2.78
+2860,Basic,Weekly,3409,108,Pick-up,53.01,2.96
+2861,Premium,Weekly,572,52,Pick-up,86.5,2.41
+2862,Basic,Weekly,571,96,Home Delivery,68.41,4.64
+2863,Premium,Monthly,4928,70,Home Delivery,32.43,3.28
+2864,Premium,Monthly,2370,183,Home Delivery,33.93,4.05
+2865,Premium,Weekly,985,102,Pick-up,68.54,4.25
+2866,Basic,Weekly,2280,75,Pick-up,116.02,2.37
+2867,Basic,Weekly,4090,161,Pick-up,135.72,2.73
+2868,Premium,Monthly,4633,190,Pick-up,21.78,4.39
+2869,Basic,Monthly,4991,151,Pick-up,65.03,2.45
+2870,Premium,Daily,3747,143,Home Delivery,24.03,4.18
+2871,Basic,Daily,2887,155,Home Delivery,12.32,4.76
+2872,Premium,Weekly,4133,192,Pick-up,102.64,3.49
+2873,Premium,Monthly,2511,179,Pick-up,94.34,3.97
+2874,Basic,Monthly,3293,181,Home Delivery,32.82,4.22
+2875,Premium,Monthly,3409,82,Home Delivery,42.73,4.38
+2876,Basic,Weekly,735,92,Home Delivery,13.32,2.58
+2877,Premium,Daily,2210,179,Home Delivery,126.89,1.21
+2878,Premium,Weekly,4038,175,Pick-up,146.46,2.61
+2879,Basic,Daily,4116,4,Home Delivery,28.96,3.7
+2880,Basic,Daily,1617,135,Pick-up,42.41,2.8
+2881,Basic,Weekly,88,109,Home Delivery,131.58,4.0
+2882,Premium,Daily,2594,163,Home Delivery,139.7,2.43
+2883,Basic,Daily,4925,48,Home Delivery,68.75,3.54
+2884,Premium,Monthly,1306,73,Pick-up,17.09,1.75
+2885,Premium,Daily,3040,72,Pick-up,15.51,4.0
+2886,Basic,Weekly,2246,116,Home Delivery,90.35,3.18
+2887,Basic,Weekly,3518,173,Pick-up,65.01,1.82
+2888,Premium,Daily,2758,81,Pick-up,14.01,2.17
+2889,Premium,Monthly,351,81,Home Delivery,91.66,3.99
+2890,Basic,Monthly,696,113,Home Delivery,11.58,2.93
+2891,Basic,Daily,4808,96,Pick-up,120.23,1.86
+2892,Basic,Daily,1809,72,Pick-up,52.9,4.87
+2893,Basic,Weekly,4401,147,Pick-up,15.64,3.86
+2894,Basic,Daily,647,63,Home Delivery,92.37,4.83
+2895,Premium,Monthly,711,38,Home Delivery,65.68,2.71
+2896,Premium,Daily,4380,67,Pick-up,146.33,2.9
+2897,Premium,Weekly,1418,187,Home Delivery,86.19,4.59
+2898,Premium,Weekly,2631,69,Home Delivery,48.53,3.1
+2899,Basic,Weekly,3918,13,Pick-up,109.32,3.83
+2900,Basic,Weekly,3587,175,Pick-up,48.01,2.01
+2901,Basic,Weekly,4915,189,Home Delivery,136.59,2.79
+2902,Premium,Daily,4358,31,Home Delivery,62.46,1.49
+2903,Premium,Daily,4608,114,Pick-up,86.98,1.82
+2904,Basic,Daily,332,22,Home Delivery,17.08,1.0
+2905,Basic,Daily,3728,93,Home Delivery,69.66,1.16
+2906,Premium,Weekly,1536,171,Pick-up,126.53,4.91
+2907,Premium,Monthly,4132,67,Pick-up,122.79,1.97
+2908,Basic,Daily,4233,54,Home Delivery,41.4,3.65
+2909,Basic,Monthly,510,138,Home Delivery,41.65,4.36
+2910,Premium,Daily,2375,42,Home Delivery,124.42,3.2
+2911,Basic,Daily,3804,64,Pick-up,140.26,1.61
+2912,Basic,Monthly,2518,126,Home Delivery,23.35,3.91
+2913,Basic,Weekly,1774,21,Home Delivery,73.01,3.4
+2914,Premium,Daily,1426,194,Pick-up,57.24,3.93
+2915,Premium,Daily,2793,169,Pick-up,131.9,4.08
+2916,Premium,Daily,564,152,Home Delivery,21.69,4.9
+2917,Premium,Monthly,752,35,Pick-up,39.56,3.29
+2918,Premium,Weekly,1703,184,Pick-up,115.35,2.37
+2919,Premium,Monthly,2116,30,Home Delivery,17.18,3.59
+2920,Premium,Monthly,72,57,Pick-up,78.95,1.27
+2921,Basic,Weekly,2510,47,Pick-up,71.89,4.59
+2922,Basic,Monthly,1354,163,Home Delivery,56.82,1.48
+2923,Basic,Weekly,3350,19,Pick-up,65.24,2.31
+2924,Basic,Daily,411,114,Home Delivery,84.19,4.26
+2925,Basic,Weekly,3777,8,Home Delivery,32.59,3.39
+2926,Basic,Daily,1334,26,Pick-up,90.08,2.57
+2927,Basic,Monthly,564,113,Pick-up,122.76,2.89
+2928,Premium,Monthly,498,71,Pick-up,116.42,4.42
+2929,Premium,Daily,1905,30,Home Delivery,31.55,2.36
+2930,Basic,Monthly,3612,135,Pick-up,30.89,4.48
+2931,Basic,Weekly,2570,67,Home Delivery,47.54,1.35
+2932,Premium,Daily,3131,65,Pick-up,60.55,4.11
+2933,Basic,Monthly,1478,36,Pick-up,67.18,4.39
+2934,Basic,Daily,4017,25,Pick-up,105.16,1.73
+2935,Premium,Weekly,972,37,Home Delivery,17.94,2.72
+2936,Basic,Weekly,3187,1,Pick-up,14.85,1.66
+2937,Premium,Monthly,2209,143,Pick-up,64.87,3.83
+2938,Basic,Weekly,2597,37,Home Delivery,107.6,3.14
+2939,Premium,Daily,3029,141,Home Delivery,37.08,3.54
+2940,Premium,Weekly,2331,136,Pick-up,99.81,1.79
+2941,Premium,Daily,2699,133,Pick-up,46.38,1.85
+2942,Basic,Daily,363,188,Pick-up,134.05,1.17
+2943,Premium,Weekly,2663,128,Home Delivery,135.4,2.29
+2944,Basic,Monthly,3133,127,Home Delivery,51.62,3.24
+2945,Basic,Weekly,2306,1,Home Delivery,42.2,4.43
+2946,Basic,Daily,1087,164,Home Delivery,67.58,3.67
+2947,Basic,Daily,3539,35,Pick-up,43.67,2.74
+2948,Premium,Weekly,2684,194,Home Delivery,104.13,4.81
+2949,Premium,Monthly,4033,191,Home Delivery,125.65,3.88
+2950,Basic,Monthly,1828,104,Home Delivery,104.23,4.72
+2951,Basic,Daily,3945,23,Pick-up,125.41,3.11
+2952,Premium,Daily,1174,9,Pick-up,65.58,2.04
+2953,Basic,Monthly,747,34,Home Delivery,31.88,1.21
+2954,Premium,Weekly,2229,174,Home Delivery,113.31,3.9
+2955,Basic,Daily,1454,128,Pick-up,60.47,1.49
+2956,Basic,Daily,1093,4,Pick-up,103.98,2.21
+2957,Premium,Monthly,1979,158,Pick-up,47.89,3.13
+2958,Basic,Weekly,1063,102,Pick-up,21.37,3.26
+2959,Premium,Monthly,276,75,Pick-up,148.96,3.4
+2960,Basic,Weekly,1878,99,Pick-up,31.87,1.67
+2961,Basic,Weekly,4967,72,Pick-up,148.38,2.52
+2962,Basic,Weekly,2073,3,Pick-up,146.82,3.47
+2963,Premium,Daily,2502,142,Home Delivery,121.13,4.88
+2964,Basic,Monthly,2135,188,Home Delivery,102.32,3.91
+2965,Basic,Monthly,4333,173,Home Delivery,90.89,4.69
+2966,Basic,Weekly,1130,34,Home Delivery,131.25,4.05
+2967,Basic,Daily,2370,45,Home Delivery,50.52,3.37
+2968,Premium,Daily,3240,61,Home Delivery,75.48,1.77
+2969,Premium,Monthly,2680,83,Pick-up,96.71,3.67
+2970,Basic,Daily,2613,123,Pick-up,67.57,3.49
+2971,Premium,Daily,3342,102,Home Delivery,69.85,3.41
+2972,Basic,Weekly,4671,16,Home Delivery,56.24,2.96
+2973,Basic,Daily,3636,66,Pick-up,88.99,3.11
+2974,Basic,Weekly,4481,168,Pick-up,129.08,2.34
+2975,Premium,Monthly,2997,145,Pick-up,38.21,3.08
+2976,Premium,Daily,4009,119,Home Delivery,140.82,1.79
+2977,Premium,Monthly,2863,162,Pick-up,106.47,4.22
+2978,Premium,Monthly,2633,124,Home Delivery,125.26,1.74
+2979,Premium,Daily,211,144,Home Delivery,87.87,1.34
+2980,Premium,Daily,643,102,Pick-up,119.13,2.74
+2981,Premium,Monthly,3309,188,Pick-up,12.27,3.63
+2982,Premium,Daily,4205,66,Home Delivery,124.57,2.75
+2983,Premium,Weekly,3012,194,Pick-up,15.62,2.11
+2984,Basic,Weekly,3938,13,Pick-up,134.59,3.23
+2985,Premium,Daily,3440,184,Home Delivery,148.87,2.39
+2986,Premium,Monthly,4551,111,Pick-up,51.17,4.73
+2987,Premium,Daily,713,159,Home Delivery,39.44,4.69
+2988,Premium,Daily,1182,34,Home Delivery,117.15,3.01
+2989,Premium,Monthly,591,39,Pick-up,45.42,2.31
+2990,Premium,Monthly,3024,195,Home Delivery,131.18,3.95
+2991,Premium,Weekly,917,136,Home Delivery,24.4,1.15
+2992,Premium,Monthly,2116,120,Pick-up,27.63,2.9
+2993,Premium,Weekly,481,126,Pick-up,147.08,2.35
+2994,Premium,Monthly,4885,55,Pick-up,104.34,4.68
+2995,Premium,Daily,4328,27,Home Delivery,128.56,1.05
+2996,Basic,Weekly,1256,118,Home Delivery,55.41,3.21
+2997,Basic,Weekly,2578,53,Pick-up,104.71,3.96
+2998,Premium,Weekly,1219,39,Home Delivery,93.19,2.94
+2999,Premium,Daily,880,65,Pick-up,94.44,1.34
+3000,Basic,Daily,1701,145,Pick-up,105.55,4.89

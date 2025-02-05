@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About BUSBARS - Churn Rate Model</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <style>
+    /* Reset & Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Navbar */
+    .navbar {
+      width: 100%;
+      padding: 1rem 2rem;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .navbar .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #764ba2;
+    }
+    .navbar .nav-links a {
+      margin-left: 1.5rem;
+      font-weight: 600;
+      color: #764ba2;
+      transition: color 0.3s ease;
+    }
+    .navbar .nav-links a:hover {
+      color: #5a3791;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      text-align: center;
+      color: white;
+      padding: 2rem;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      z-index: 1;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      z-index: 1;
+    }
+
+    /* Particles Background */
+    #particles-js {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    /* About Section */
+    .about-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 2rem;
+      text-align: center;
+      background: #fff;
+      color: #333;
+    }
+    .about-section h2 {
+      font-size: 2.5rem;
+      color: #764ba2;
+      font-weight: 700;
+    }
+    .about-section p {
+      font-size: 1.2rem;
+      margin: 1.5rem 0;
+      line-height: 1.6;
+      max-width: 800px;
+    }
+
+    /* Call to Action */
+    .cta {
+      background: #764ba2;
+      color: white;
+      padding: 1rem 2.5rem;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      margin-top: 2rem;
+    }
+    .cta:hover {
+      background: #5a3791;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+      .about-section h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">BUSBARS</div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/login">Login</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div>
+      <h1>Welcome to BUSBARS</h1>
+      <p>Your Ultimate Churn Rate Prediction Tool</p>
+    </div>
+    <div id="particles-js"></div> <!-- Particles background -->
+  </div>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <h2>About the Churn Rate Model</h2>
+    <p>
+      The Churn Rate Model is designed to help businesses understand customer retention trends by predicting
+      which users are likely to churn. By analyzing customer behavior data, the model can identify at-risk customers
+      and provide actionable insights that can lead to higher retention rates.
+    </p>
+    <p>
+      The model uses advanced machine learning algorithms to analyze various features of customer data, such as
+      usage patterns, engagement levels, and demographic information. This helps businesses tailor their strategies
+      and take proactive steps to retain valuable customers.
+    </p>
+    <button class="cta" onclick="window.location.href='/login'">Start Analyzing Your Data</button>
+  </section>
+
+  <!-- Initialize Particles -->
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 80,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#ffffff"
+          }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 1,
+            "opacity_min": 0.1
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 40,
+            "size_min": 0.1
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 6,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          }
+        },
+        "modes": {
+          "repulse": {
+            "distance": 100,
+            "duration": 0.4
+          },
+          "push": {
+            "particles": {
+              "number": 4,
+              "density": {
+                "value_area": 800
+              }
+            }
+          }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+</html>
