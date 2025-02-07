@@ -39,7 +39,7 @@ avg_watch_time_per_day = np.round(np.random.uniform(0.5, 6.5, size=num_users), 6
 churn = np.where((total_watch_hours < 100) | (last_payment_missed == 1), 1, 0)
 
 
-# Create DataFrame
+
 data = pd.DataFrame({
     'CustomerID': customer_ids,
     'SubscriptionType': subscription_type,
@@ -52,7 +52,7 @@ data = pd.DataFrame({
     
 })
 
-# Save to CSV
+
 data.to_csv('customer_data_1000.csv', index=False)
 
 print("Dataset generated and saved as 'customer_data_1000.csv'")

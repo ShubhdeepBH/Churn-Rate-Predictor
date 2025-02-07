@@ -61,12 +61,12 @@ class ChurnPredictor:
           - churn_user_ids: List of user IDs for those predicted to churn.
         """
         try:
-            # Read data from CSV or Excel
+            
             df = pd.read_csv(file_path) if file_path.endswith('.csv') else pd.read_excel(file_path)
             processed_df = self._preprocess_data(df, training=self.target_col in df.columns)
 
             if self.target_col in processed_df.columns:
-                # Training branch
+                
                 X = processed_df.drop(columns=[self.target_col])
                 y = processed_df[self.target_col]
 
@@ -92,7 +92,7 @@ class ChurnPredictor:
                     'churn_user_ids': churn_user_ids
                 }
             else:
-                # Prediction branch
+                
                 self.model = joblib.load('churn_model.pkl')
                 self.scaler = joblib.load('churn_scaler.pkl')
                 self.feature_columns = joblib.load('feature_columns.pkl')
@@ -102,7 +102,7 @@ class ChurnPredictor:
                 churn_rate = predictions.mean() * 100
                 churn_count = int(predictions.sum())
 
-                # Find the original indices of rows predicted to churn
+                
                 churn_users = processed_df[predictions == 1]
 
                 if 'CustomerID' in df.columns:
